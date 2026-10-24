@@ -22,7 +22,7 @@ your device(s).
 This is a known issue on some devices made by Sony, Phillips and Xiaomi. Some other devices may also have this issue.
 
 To fix this issue, you can make the app use system (global) volume level:
-in [Settings](settings.md) > [Common settings](common_settings.md) > check ***Always use system volume level***. You
+in [Settings](/settings) > [Common settings](/settings/common-settings) > check ***Always use system volume level***. You
 need to reload your currently active portal from the app's menu for the changes to take effect.
 :::
 

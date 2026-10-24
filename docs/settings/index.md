@@ -9,17 +9,12 @@ sidebar_label: Settings
 - [Common settings](#common-settings)
 - [Configure key maps](#configure-key-maps)
 - [Profiles](#profiles)
-- [Updates](#updates)
-- [About](#about)
 
-#### [Common settings](common-settings)
+#### [Common settings](/settings/common-settings)
 Global application settings.
 
-#### [Configure key maps](key-maps)
+#### [Configure key maps](/settings/key-maps)
 Here you may configure key bindings for your remote control.
 
-#### [Profiles](profiles)
+#### [Profiles](/settings/profiles)
 A list of profiles (portals), where you can configure each profile and set required data for emulation.
-
-#### [About](about)
-About application...
