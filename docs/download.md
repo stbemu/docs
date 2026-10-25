@@ -8,12 +8,12 @@ sidebar_label: Download
 
 ![StbEmu Free](/img/stbemu_free_icon.png)
 
-There are two versions of StbEmu: a free one and a Pro (paid) one.
+StbEmu is available in two versions: Free and Pro (paid).
 
 | Free version | Pro (paid) version                                |
 |--------------|---------------------------------------------------|
-| shows ads    | ad free                                           |
-|              | supports software remote controls for MAG 250 *   |
+| Shows ads    | Ad-free                                           |
+|              | Supports software remote controls for MAG 250 *   |
 | [Download from Google Play](https://play.google.com/store/apps/details?id=com.mvas.stb.emu.free)  | [Download from Google Play](https://play.google.com/store/apps/details?id=com.mvas.stb.emu.pro) |
 
-* before using a software remote control from Google Play, check if it supports MAG 250.
+* Before using a software remote control from Google Play, check that it supports MAG 250.

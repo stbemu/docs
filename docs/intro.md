@@ -1,16 +1,16 @@
 ---
 id: intro
 slug: /
-title: Into
-sidebar_label: Into
+title: Introduction
+sidebar_label: Introduction
 ---
 
 # StbEmu
 
-**StbEmu** is an application for Android 8.0+ to load web portals, designed to run 
-on STBs (Set-Top-Boxes), on Android-based devices, like phones, tablets and TV boxes.
-At this moment the application supports emulation of multiple STBs created by Ukrainian company Infomir,
-like MAG 250, MAG 270 or MAG 322. See the [list of emulated devices](/supported-devices).
+**StbEmu** is an Android 8.0+ application that loads web portals designed for set-top boxes (STBs)
+on Android devices, including phones, tablets, and TV boxes.
+The application currently supports emulation of several STB models made by the Ukrainian company Infomir,
+such as MAG 250, MAG 270, and MAG 322. See the [list of emulated devices](/supported-devices).
 
 :::note
 **StbEmu** is a neutral technological tool and hardware emulator. It does not provide, host, or index any media,
@@ -18,9 +18,9 @@ playlists, or streaming portals. The app is designed for users to access their o
 The developer is not affiliated with any third-party content providers.
 :::
 
-There are two versions of the app: a free one and a paid one. [Free version](https://play.google.com/store/apps/details?id=com.mvas.stb.emu.free) shows ads, [Pro version](https://play.google.com/store/apps/details?id=com.mvas.stb.emu.pro) doesn't.
-That's the only big difference between them.
+There are two versions of the app: free and paid. The [free version](https://play.google.com/store/apps/details?id=com.mvas.stb.emu.free) shows ads; the [Pro version](https://play.google.com/store/apps/details?id=com.mvas.stb.emu.pro) does not.
+This is the main difference between them.
 
-See [Settings](/settings) page.
+See the [Settings](/settings) page.
 
-See [Download](/download) page.
+See the [Download](/download) page.

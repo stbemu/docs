@@ -11,10 +11,10 @@ sidebar_label: Settings
 - [Profiles](#profiles)
 
 #### [Common settings](/settings/common-settings)
-Global application settings.
+Settings that apply to the entire app.
 
 #### [Configure key maps](/settings/key-maps)
-Here you may configure key bindings for your remote control.
+Configure key bindings for your remote control.
 
 #### [Profiles](/settings/profiles)
-A list of profiles (portals), where you can configure each profile and set required data for emulation.
+Manage profiles (portals) and configure the data required for emulation.

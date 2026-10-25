@@ -64,7 +64,7 @@ const config: Config = {
     navbar: {
       title: 'StbEmu',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'StbEmu logo',
         src: 'img/logo.svg',
       },
       items: [

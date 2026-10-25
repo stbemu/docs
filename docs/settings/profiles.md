@@ -6,16 +6,15 @@ sidebar_label: Profiles
 
 # STB profiles
 
-**STB profile** is a set of options to emulate an STB in the app. The app creates one profile by default on the first 
-start, but you can always change it or add another profile to be able to load more portals on the same device. 
-To create a new profile, double tap on the screen and the menu on the top (or on the side) should appear [^1], 
-then select **Settings**. When the **Settings** open, select **Profiles** where you can add or update profiles. 
+An **STB profile** is a set of options for emulating a set-top box in the app. The app creates one profile on first launch.
+You can edit it or add more profiles to load different portals on the same device.
+To create a profile, double-tap the screen to display the menu at the top or side [^1].
+Select **Settings**, then **Profiles**, where you can add or edit profiles.
 
 StbEmu does not provide, host, or index any media or IPTV playlists. 
 Users must have a legal right to the content they access via the emulator.
 
-[^1] if you use a 3D remote control or mouse, move the cursor pointer, click on the screen and open the app's
-menu on top. 
+[^1]: If you use a 3D remote control or a mouse, move the pointer, click the screen, and open the app's menu at the top.
 
 - [Profile name](#profile-name)
 - [Portal settings](#portal-settings)
@@ -51,24 +50,24 @@ menu on top.
 - [Media player settings](#media-player-settings)
     - [Media player](#media-player)
     - [UDPXY settings](#udpxy-settings)
-        - [Enable UDXPY support](#enable-udxpy-support)
+        - [Enable UDPXY support](#enable-udxpy-support)
         - [UDPXY server URL](#udpxy-server-url)
         - [Overwrite stream protocol](#overwrite-stream-protocol)
 - [Advanced settings](#advanced-settings)
 
 ### Profile name
-A name of the profile. Should be any non-empty string.
+The profile name. This can be any non-empty string.
 
 ### Portal settings
-A set of portal-specific options.
+Options specific to the portal.
 ##### Portal URL
-A URL where the portal is located. It must start from a scheme (**http://**, **https://**, **ftp://**, etc.).
+The URL of the portal. It must start with a scheme (**http://**, **https://**, **ftp://**, etc.).
 
 ##### Portal language
-A default language for a portal. Must be one of [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) language codes (two-letter).
+The default portal language, specified as a two-letter [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) language code.
 
 #### HTTP Proxy settings
-HTTP proxy configuration
+HTTP proxy settings.
 
 ##### Use HTTP proxy
 Enable if you want to use an HTTP proxy.
@@ -77,100 +76,100 @@ Enable if you want to use an HTTP proxy.
 ##### Proxy port
 
 ##### Portal is internal
-Check if you want to use an internal portal for MAG devices.
+Enable this option to use an internal portal for MAG devices.
 
 ##### Internal portal URL
 
 ### STB configuration
-Main configuration options.
+The main emulation settings.
 
 #### STB Model
-An STB model you want to emulate.
+The STB model to emulate.
 
 #### Firmware
-A **firmware** (not a real one) you want to emulate. Some portals may require using specific firmware, 
-so you have to choose it in the list if available.
-Most of the supported STB models only have a **Generic** firmware, which is usually the most recent.
+The **firmware** to emulate; no actual firmware is installed. Some portals require specific firmware.
+If so, select it from the list if it is available.
+Most supported STB models offer only **Generic** firmware, which usually represents the latest version.
 
-Available firmwares
-* Generic. Usually the most recent firmware available.
-* Custom (Mag 250 only). Customizable firmware. Use it if you need to configure some specific firmware options.
+Available firmware options:
+* Generic: usually the latest available firmware.
+* Custom (MAG 250 only): customizable firmware. Use this if you need to change specific firmware settings.
 
 Most users should use **Generic** firmware (selected by default).
 
 #### Firmware settings
-This option is only available if you use **Custom** firmware (only available for MAG 250 for now).
-Here you may configure some specific firmware options, like version, custom user agent, etc.
+This option is available only with **Custom** firmware (currently supported only for MAG 250).
+Use it to configure specific firmware settings, such as the version or a custom User Agent string.
 
 #### User Agent
-A User Agent for the app's web browser.
+The User Agent string for the app's web browser.
 
 #### Screen resolution
-A screen resolution to emulate (not a real one!). Use one of the resolutions your portal supports
-(usually **1280x720**).
+The screen resolution to emulate; this does not change the actual display resolution.
+Choose a resolution your portal supports, usually **1280x720**.
 
 #### MAC address
-A MAC address of the emulated device. If you have a real MAG 250 device, you may use its MAC address, 
-or just any random hexadecimal 12 digits (0–9, A-F), divided by colons. [^wrong_mac].
+The MAC address of the emulated device. You can use the MAC address of a real MAG 250 device you own,
+or 12 random hexadecimal digits (0–9, A–F), grouped in pairs separated by colons. [^wrong_mac]
 
-Most portals require MAC address to start from 00:1A:79.
+Most portals require the MAC address to start with 00:1A:79.
 
-[^wrong_mac]: On some devices that have only Wi-Fi connection, the default generated MAC address could 
-be **00:1A:79:00:00:00** which means the app couldn't properly detect it because of Android restrictions. 
-If you have such an issue, change the **00:00:00** part to any random hexadecimal digits.
+[^wrong_mac]: On some Wi-Fi-only devices, the generated MAC address may be **00:1A:79:00:00:00**.
+    This means the app could not detect it correctly because of Android restrictions.
+    Replace the **00:00:00** portion with random hexadecimal digits, keeping the colons between pairs.
 
 #### Serial number
-A serial number of the emulated device. Most portals don't check it, so any random text line should be good for use.
+The serial number of the emulated device. Most portals do not check it, so any text string will usually work.
 
 #### Device ID
-Device ID configuration options.
+Device ID settings.
 
 ##### Use MAC-based device ID
-Enable to generate device ID based on your device's MAC address. Press **Reset device ID** after enabling or 
+Generate the device ID from the device's MAC address. Press **Reset device ID** after enabling or
 disabling this option to regenerate the ID.
 
 ##### Send Device ID
-Send device ID if portals request it. Sends empty string if not enabled.
+Send the device ID when a portal requests it. If disabled, the app sends an empty string.
 
 ##### Device ID random seed
-A seed for generating device ID. Use the same seed on all your devices that use the same portal URL and the same 
-MAC address. Press **Reset device ID** after changing.
+The seed used to generate the device ID. Use the same seed on all devices that use the same portal URL and
+MAC address. Press **Reset device ID** after changing this value.
 
 ##### Device ID value
-A device ID. You may either use a generated value or write your own.
+The device ID. Use the generated value or enter your own.
 
 ##### Custom device ID 2 and signature
-Enable to be able to change Device ID 2 and signature.
+Enable this option to edit Device ID 2 and the signature.
 
 ##### Device ID 2
 ##### Signature
 ##### Reset device ID to default value
-Regenerates **Device ID**, **Device ID 2** and signature.
+Regenerate **Device ID**, **Device ID 2**, and the signature.
 
 #### Hardware settings
 ##### Vendor
 ##### Hardware version
 
 #### IP address
-IP address that will be sent to a portal if requested. Not a real one.
-Most portals never use this information, so you may not change it.
+The IP address sent to a portal on request. This is an emulated address, not the device's actual IP address.
+Most portals do not use this information, so you usually do not need to change it.
 ### Media player settings
 
-Profile specific media player settings.
+Media player settings for this profile.
 #### Media player
-Select a default media player for profile
+Select the default media player for this profile.
 
 | Player          | Description                                                                                                                                          | Comment                                                 |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| Exo             | [Github](https://github.com/google/ExoPlayer)                                                                                                        | The default player. Should be preferred on most devices |
-| VLC             | [web site](https://www.videolan.org)                                                                                                                 |                                                         |
-| MPV             | [Github](https://github.com/mpv-android/mpv-android)                                                                                                 |                                                         |
-| Ijk             | [Github](https://github.com/bilibili/ijkplayer)                                                                                                      | Doesn't support subtitles                               |
-| Internal player | Uses Android's player. A list of supported codecs depends on your device's Android version.                                                          | Doesn't support subtitles                               |
-| External player | You may use almost any external player, but no integration with the emulator is available (media streams will be opened in an external application). |                                                         |
+| Exo             | [GitHub](https://github.com/google/ExoPlayer)                                                                                                        | The default player, recommended for most devices |
+| VLC             | [Website](https://www.videolan.org)                                                                                                                 |                                                         |
+| MPV             | [GitHub](https://github.com/mpv-android/mpv-android)                                                                                                 |                                                         |
+| Ijk             | [GitHub](https://github.com/bilibili/ijkplayer)                                                                                                      | Does not support subtitles                               |
+| Internal player | Uses the Android player. Supported codecs depend on your device's Android version.                                                          | Does not support subtitles                               |
+| External player | Use almost any external player. Integration with the emulator is unavailable; media streams open in another app. |                                                         |
 
 #### UDPXY settings
-##### Enable UDXPY support
+##### Enable UDPXY support {/* #enable-udxpy-support */}
 ##### UDPXY server URL
 ##### Overwrite stream protocol
 ### Advanced settings
