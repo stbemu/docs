@@ -1,10 +1,10 @@
 {
   "version.label": {
-    "message": "Далі",
+    "message": "Поточна версія",
     "description": "The label for version current"
   },
   "sidebar.docSidebarId.category.Getting Started": {
-    "message": "Починаємо",
+    "message": "Початок роботи",
     "description": "The label for category 'Getting Started' in sidebar 'docSidebarId'"
   },
   "sidebar.docSidebarId.category.Settings": {
@@ -12,15 +12,15 @@
     "description": "The label for category 'Settings' in sidebar 'docSidebarId'"
   },
   "sidebar.docSidebarId.doc.Supported devices": {
-    "message": "Підтримка пристроїв",
+    "message": "Підтримувані пристрої",
     "description": "The label for the doc item 'Supported devices' in sidebar 'docSidebarId', linking to the doc supported-devices"
   },
   "sidebar.docSidebarId.doc.Download": {
-    "message": "Завантажити",
+    "message": "Завантаження",
     "description": "The label for the doc item 'Download' in sidebar 'docSidebarId', linking to the doc download"
   },
   "sidebar.docSidebarId.doc.FAQ": {
-    "message": "FAQ",
+    "message": "Поширені запитання",
     "description": "The label for the doc item 'FAQ' in sidebar 'docSidebarId', linking to the doc faq"
   }
 }
