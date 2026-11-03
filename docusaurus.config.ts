@@ -32,7 +32,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'uk', 'es', 'pt-BR', 'ru', 'de', 'fr', 'tr', 'ar', 'pl', 'it', 'id'],
+    locales: ['en', 'uk', 'es', 'pt-BR', 'ru', 'de', 'fr', 'tr', 'ar', 'pl', 'it', 'id', 'zh-Hans', 'vi', 'hi', 'ja', 'ko'],
     localeConfigs: {
       ar: {direction: 'rtl'},
     },

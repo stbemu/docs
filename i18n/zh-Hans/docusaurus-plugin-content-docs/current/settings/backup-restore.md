@@ -1,0 +1,27 @@
+---
+id: backup-restore
+title: 备份与还原
+sidebar_label: 备份与还原
+---
+
+# 备份与还原 {/* #backup--restore */}
+
+打开 **Settings > Backup & restore**。仅当您的应用启用了备份操作时，此类别才可用。
+
+## 保存或分享备份 {/* #save-or-share-a-backup */}
+
+选择 **Save settings and profiles…**，然后在 Android 文档选择器中选择目标位置。选择 **Share settings and profiles…** 可创建备份，并通过 Android 的分享界面发送。
+
+如果文档选择器不可用，应用会使用可访问的备份文件夹及其文件浏览器。**Browse saved backups** 会列出在可用文件夹中找到的备份。设备权限和可用的文件提供程序可能会限制您可以访问的文件。
+
+## 还原备份 {/* #restore-a-backup */}
+
+1. 选择 **Restore settings and profiles…** 并选择备份，或从已保存备份浏览器中选择一个备份。
+2. 核对文件名、配置文件数量以及列出的还原影响。
+3. 确认还原。在选择器中取消或拒绝授权不会启动还原操作。
+
+还原操作会更新匹配的配置文件、还原应用设置并替换遥控器按键映射。可移植备份不包含 Companion 服务身份、凭据、已撤销设备记录或操作历史。
+
+:::warning
+还原操作分多个步骤应用更改。如果后续步骤失败，前面步骤的更改可能已经保存。失败后，请重新加载设置并检查当前配置。此本地还原流程不支持整体回滚，也没有可选择的合并/替换模式。
+:::
