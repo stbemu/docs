@@ -42,6 +42,11 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
+          lastVersion: 'current',
+          versions: {
+            current: {label: 'Latest', path: '', banner: 'none'},
+            legacy: {label: 'Legacy', path: 'legacy', banner: 'none'},
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -82,6 +87,10 @@ const config: Config = {
         },
         {
           type: 'localeDropdown',
+          position: 'right',
+        },
+        {
+          type: 'docsVersionDropdown',
           position: 'right',
         },
       ],

@@ -1,81 +1,50 @@
 ---
 id: common-settings
-title: Common settings
-sidebar_label: Common settings
+title: Application settings
+sidebar_label: Application settings
 ---
 
-# Common settings
+# Application settings
 
-These settings apply to app version 0.8 and later.
+App-wide options are grouped into the following categories in [Settings](/settings). Profile-specific options are under [Profiles](/settings/profiles).
 
-- [Settings](#settings)
-    - [App Language](#app-language)
-    - [Hide navigation bar](#hide-navigation-bar)
-    - [Always show overlay buttons](#always-show-overlay-buttons)
-    - [Screen configuration](#screen-configuration)
-    - [Keyboard configuration](#keyboard-configuration)
-- [Boot options](#boot-options)
-    - [Auto start on device boot](#auto-start-on-device-boot)
-- [Android TV](#android-tv)
-    - [Enable recommendations](#enable-recommendations)
-- [Browser settings](#browser-settings)
-    - [Scaling method](#scaling-method)
-- [Network settings](#network-settings)
-    - [Enable network cache](#enable-network-cache)
-    - [Cache size](#cache-size)
+## Appearance & controls
 
-### Settings
-#### App Language
-Change the app language. By default, the app uses the Android system language if it is supported.
+| Option | Purpose |
+|--------|---------|
+| App language | Use a supported app language or the Android system default. |
+| Hide navigation bar | Hide Android's navigation buttons where supported. On a touchscreen, the first tap may reveal navigation and a second tap may be needed to reveal the app controls. |
+| Always show overlay buttons | Show on-screen controls. You can turn this off on a TV box if remote key presses bring up unwanted buttons. |
+| Hide controls after… (ms) | Set the on-screen control timeout in milliseconds. Default: 5000 (5 seconds). |
+| Screen orientation | Choose the app's orientation behavior. |
+| Keyboard type | Choose the keyboard used by the app. |
+| Software keyboard input method | Choose how input is handled by the software keyboard. |
 
-#### Hide navigation bar
-Hide the navigation bar and its buttons (may not work on some devices). If this option is enabled and you use
-a touchscreen, you may need to tap twice to show hidden on-screen buttons.
-The first tap shows the navigation bar; this is an Android restriction.
+## Playback & behavior
 
-#### Always show overlay buttons
-Show on-screen buttons. This option should usually remain enabled. On STBs, you can disable it if the buttons
-appear when you press a key on your remote control.
+| Option | Purpose |
+|--------|---------|
+| Pause media in background | Pause playback when switching to another app. This control is unavailable while automatic picture-in-picture is enabled. |
+| Picture-in-picture | Use picture-in-picture when leaving the app, where supported by Android and the device. |
+| Auto start on device boot | Start the app after device startup. The app must be installed in internal storage; a device lock screen can delay startup until it is unlocked. |
+| Always use system volume level | Use the system volume rather than a separate app volume. |
+| Enable recommendations | Show profile recommendation cards on supported Android TV home screens. |
+| Media sessions | Enable Android media-session integration. |
 
-#### Screen configuration
-Enable or disable screen rotation when the device orientation changes.
+## Network
 
-#### Keyboard configuration
-Remote control settings (not available in the free version).
+**Scaling method** changes browser scaling if a portal appears too large or too small. Most devices can keep the default; a low-resolution display may need a different method.
 
-Configure the remote control server to control a portal using a software remote control for MAG 250, AuraHD, or similar devices.
+**Enable network cache** caches network requests to improve portal loading. Disable it if you encounter repeated authentication or other network problems.
 
-#### Boot options
-##### Auto start on device boot
+**Cache size** is entered in KB. The default is **20480 KB (20 MB)**. Restart the app when prompted to apply a changed cache size.
 
-Start the app when the device boots. This works only if the app is installed in internal storage.
-If your device has a lock screen enabled (for example, on a phone or tablet), the app starts after you unlock it.
+## Security
 
-#### Stop in the background
-Pause the app when you switch to another app.
+Enable settings password protection and set its password. Protected settings require authentication. The password editor does not retain its secret when the screen is recreated; enter it again if needed.
 
-#### Android TV
-Options specific to Android TV.
+## Legacy remote
 
-##### Enable recommendations
+This category configures the older software remote-control service for MAG 250, AuraHD, and similar remote apps. It is separate from [Companion](/settings/companion) and [physical key mapping](/settings/key-maps).
 
-Enable recommendation cards on the Android home screen. The app shows a card for each configured profile
-so you can access it quickly.
-
-#### Browser settings
-Browser settings.
-
-##### Scaling method
-Select a different browser scaling method if the portal appears too large or too small.
-Most devices do not need this setting changed. An exception is a device whose display resolution is lower
-than the portal's resolution, which is usually 1280x720.
-
-#### Network settings
-Network settings.
-
-##### Enable network cache
-Cache network requests to speed up portal loading in most cases. Disable this option if you frequently
-encounter authentication errors or other network issues.
-
-##### Cache size
-The size of the network cache. Default: 20 MB.
+Enable the service and configure its device name and password. The device name and password each allow up to 32 characters. This category is available only in app editions that enable it.

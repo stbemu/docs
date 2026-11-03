@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     This is a known issue on some Sony, Philips, and Xiaomi devices. It may also affect other devices.
 
     To fix it, configure the app to use the system (global) volume level:
-    go to [Settings](/settings) > [Common settings](/settings/common-settings) and enable ***Always use system volume level***.
+    go to [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) and enable ***Always use system volume level***.
     Reload the active portal from the app's menu for the changes to take effect.
 </FAQ>
 
@@ -44,10 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="I cannot create or restore a backup in the app">
-    This feature currently works properly only on Android 10 and earlier. Starting with Android 11, apps can read and write files
-    only in their own folders by default. Apps can request permission to access other folders, but this does not work on some
-    Android TV devices and set-top boxes (STBs). The underlying issues will not be fixed:
-    [1](https://issuetracker.google.com/issues/71327396), [2](https://issuetracker.google.com/issues/202985150).
-
-    If your device is affected, you will not be able to create or restore backups on it.
+    In the redesigned Settings, open [Backup & restore](/settings/backup-restore) and use Android's document picker to select a file or save location.
+    If no picker is available, the app uses accessible backup folders and its file browser.
+    Check device permissions and access to the selected file. Before restoring, review the backup name and profile count and confirm the operation.
 </FAQ>

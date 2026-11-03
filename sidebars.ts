@@ -38,6 +38,9 @@ const sidebars: SidebarsConfig = {
           'settings/common-settings',
           'settings/key-maps',
           'settings/profiles',
+          'settings/backup-restore',
+          'settings/companion',
+          'settings/about-updates',
         ],
       },
       {

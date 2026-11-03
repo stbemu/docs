@@ -1,0 +1,45 @@
+{
+  "docSidebarId": [
+    "intro",
+    {
+      "type": "category",
+      "label": "Getting Started",
+      "collapsible": true,
+      "collapsed": false,
+      "items": [
+        "getting-started/installation",
+        "getting-started/quickstart"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Settings",
+      "collapsible": true,
+      "collapsed": false,
+      "link": {
+        "type": "doc",
+        "id": "settings/index"
+      },
+      "items": [
+        "settings/common-settings",
+        "settings/key-maps",
+        "settings/profiles"
+      ]
+    },
+    {
+      "type": "doc",
+      "id": "supported-devices",
+      "label": "Supported devices"
+    },
+    {
+      "type": "doc",
+      "id": "download",
+      "label": "Download"
+    },
+    {
+      "type": "doc",
+      "id": "faq",
+      "label": "FAQ"
+    }
+  ]
+}
