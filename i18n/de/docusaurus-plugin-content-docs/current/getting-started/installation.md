@@ -1,0 +1,3 @@
+# Installation {/* #installation */}
+
+Sie können die App über Google Play installieren (siehe [Download](/download)).
