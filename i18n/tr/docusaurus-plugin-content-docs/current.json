@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "En güncel",
+    "description": "The label for version current"
+  },
+  "sidebar.docSidebarId.category.Getting Started": {
+    "message": "Başlangıç",
+    "description": "The label for category 'Getting Started' in sidebar 'docSidebarId'"
+  },
+  "sidebar.docSidebarId.category.Settings": {
+    "message": "Ayarlar",
+    "description": "The label for category 'Settings' in sidebar 'docSidebarId'"
+  },
+  "sidebar.docSidebarId.doc.Supported devices": {
+    "message": "Desteklenen cihazlar",
+    "description": "The label for the doc item 'Supported devices' in sidebar 'docSidebarId', linking to the doc supported-devices"
+  },
+  "sidebar.docSidebarId.doc.Download": {
+    "message": "İndir",
+    "description": "The label for the doc item 'Download' in sidebar 'docSidebarId', linking to the doc download"
+  },
+  "sidebar.docSidebarId.doc.FAQ": {
+    "message": "Sık sorulan sorular",
+    "description": "The label for the doc item 'FAQ' in sidebar 'docSidebarId', linking to the doc faq"
+  }
+}

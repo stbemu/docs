@@ -3,9 +3,9 @@ The documentation website is available at [docs.stbemu.com](https://docs.stbemu.
 
 ## Documentation versions
 
-Use the version selector in the navigation bar to switch between **Latest** (the redesigned Settings interface) and **Legacy** (the previous interface). Both versions are available in English, Ukrainian, Spanish, Brazilian Portuguese, Russian, German, and French.
+Use the version selector in the navigation bar to switch between **Latest** (the redesigned Settings interface) and **Legacy** (the previous interface). Both versions are available in English, Ukrainian, Spanish, Brazilian Portuguese, Russian, German, French, Turkish, Arabic, Polish, Italian, and Indonesian. Arabic uses a right-to-left layout.
 
-The new Spanish, Brazilian Portuguese, Russian, German, and French translations retain English app screen, setting, and button names so readers can find them in the app. Website navigation and explanatory text are translated.
+Translations added after English and Ukrainian retain English app screen, setting, and button names so readers can find them in the app. Website navigation and explanatory text are translated.
 
 Latest uses the main URLs, such as `/settings/` and `/uk/settings/`. Legacy uses `/legacy/settings/` and `/uk/legacy/settings/`.
 
