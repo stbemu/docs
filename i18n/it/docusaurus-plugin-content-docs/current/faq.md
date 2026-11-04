@@ -18,7 +18,7 @@ import FAQ from '@site/src/components/FAQ';
 
 È un problema noto su alcuni dispositivi Sony, Philips e Xiaomi. Può interessare anche altri dispositivi.
 
-Per risolverlo, configura l'app per usare il volume di sistema (globale): vai in [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) e abilita ***Always use system volume level***. Ricarica il portale attivo dal menu dell'app per applicare le modifiche.
+Per risolverlo, configura l'app per usare il volume di sistema (globale): vai in [Impostazioni](/settings) > [Riproduzione e comportamento](/settings/common-settings#playback--behavior) e abilita ***Usa sempre il volume di sistema***. Ricarica il portale attivo dal menu dell'app per applicare le modifiche.
 
 </FAQ>
 
@@ -48,6 +48,6 @@ StbEmu non supporta M3U o altre playlist. Supporta solo portali progettati per d
 
 <FAQ id="cannot-create-or-restore-backups" question="Non riesco a creare o ripristinare un backup nell’app">
 
-Nella nuova interfaccia Settings, apri [Backup & restore](/settings/backup-restore) e usa il selettore di documenti di Android per scegliere un file o una destinazione. Se non è disponibile un selettore, l'app usa le cartelle di backup accessibili e il proprio browser di file. Controlla le autorizzazioni del dispositivo e l'accesso al file selezionato. Prima di ripristinare, verifica il nome del backup e il numero di profili e conferma l'operazione.
+Nella nuova interfaccia Impostazioni, apri [Backup e ripristino](/settings/backup-restore) e usa il selettore di documenti di Android per scegliere un file o una destinazione. Se non è disponibile un selettore, l'app usa le cartelle di backup accessibili e il proprio browser di file. Controlla le autorizzazioni del dispositivo e l'accesso al file selezionato. Prima di ripristinare, verifica il nome del backup e il numero di profili e conferma l'operazione.
 
 </FAQ>

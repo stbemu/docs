@@ -5,11 +5,13 @@ The documentation website is available at [docs.stbemu.com](https://docs.stbemu.
 
 Use the version selector in the navigation bar to switch between **Latest** (the redesigned Settings interface) and **Legacy** (the previous interface). Both versions are available in English, Ukrainian, Spanish, Brazilian Portuguese, Russian, German, French, Turkish, Arabic, Polish, Italian, Indonesian, Simplified Chinese, Vietnamese, Hindi, Japanese, Korean, Greek, Dutch, Swedish, Bulgarian, European Portuguese, Norwegian Bokmål, and Croatian. Arabic uses a right-to-left layout.
 
-Translations added after English and Ukrainian retain English app screen, setting, and button names so readers can find them in the app. Website navigation and explanatory text are translated.
+Latest localized guides use the app's translated screen, setting, option, and button labels, matching [StbEmu commit `92e87e08a`](https://github.com/mvasilchuk/stbemu/commit/92e87e08a9e6f850c2f45d3744307e569506719c). English app resources are the source; each localized guide uses the corresponding translated resource values. Preserve existing document IDs, links, and heading anchors when updating displayed labels. Product names, firmware names, protocols, and example values keep the spelling shown by the app. Arabic UI labels use their natural direction; technical values retain left-to-right isolation.
+
+Legacy documentation retains its historical wording and English UI labels where previously used. Do not apply Latest UI-label updates to Legacy files.
 
 Latest uses the main URLs, such as `/settings/` and `/uk/settings/`. Legacy uses `/legacy/settings/` and `/uk/legacy/settings/`.
 
-Edit Latest in `docs/` and `i18n/uk/docusaurus-plugin-content-docs/current/`, with navigation in `sidebars.ts`.
+Edit Latest in `docs/` and `i18n/<locale>/docusaurus-plugin-content-docs/current/`, with navigation in `sidebars.ts`.
 Edit Legacy in `versioned_docs/version-legacy/` and `i18n/uk/docusaurus-plugin-content-docs/version-legacy/`, with navigation in `versioned_sidebars/version-legacy-sidebars.json`.
 Use relative Markdown links between versioned documents so links stay within the selected version.
 

@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     Dies ist ein bekanntes Problem einiger Geräte von Sony, Philips und Xiaomi. Es kann auch andere Geräte betreffen.
 
     Stellen Sie die App zur Behebung so ein, dass sie die systemweite Lautstärke verwendet:
-    Öffnen Sie [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) und aktivieren Sie ***Always use system volume level***.
+    Öffnen Sie [Einstellungen](/settings) > [Wiedergabe und Verhalten](/settings/common-settings#playback--behavior) und aktivieren Sie ***Immer Systemlautstärke verwenden***.
     Laden Sie das aktive Portal über das App-Menü neu, damit die Änderungen wirksam werden.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="Ich kann in der App keine Sicherung erstellen oder wiederherstellen">
-    Öffnen Sie in den neu gestalteten Einstellungen [Backup & restore](/settings/backup-restore) und wählen Sie über die Android-Dokumentauswahl eine Datei oder einen Speicherort aus.
+    Öffnen Sie in den neu gestalteten Einstellungen [Sichern und Wiederherstellen](/settings/backup-restore) und wählen Sie über die Android-Dokumentauswahl eine Datei oder einen Speicherort aus.
     Ist keine Dokumentauswahl verfügbar, verwendet die App zugängliche Sicherungsordner und ihren Dateibrowser.
     Prüfen Sie die Geräteberechtigungen und den Zugriff auf die ausgewählte Datei. Prüfen Sie vor der Wiederherstellung den Sicherungsnamen und die Anzahl der Profile und bestätigen Sie den Vorgang.
 </FAQ>

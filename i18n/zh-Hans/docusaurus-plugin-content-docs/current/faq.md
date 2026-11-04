@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     这是部分索尼、飞利浦和小米设备上的已知问题，其他设备也可能受到影响。
 
     要解决此问题，请将应用配置为使用系统（全局）音量：
-    前往 [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior)，启用 ***Always use system volume level***。
+    前往 [设置](/settings) > [播放与行为](/settings/common-settings#playback--behavior)，启用 ***始终使用系统音量***。
     在应用菜单中重新加载当前门户，使更改生效。
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="我无法在应用中创建或还原备份">
-    在重新设计的 Settings 中，打开 [Backup & restore](/settings/backup-restore)，然后使用 Android 文档选择器选择文件或保存位置。
+    在重新设计的 设置 中，打开 [备份与恢复](/settings/backup-restore)，然后使用 Android 文档选择器选择文件或保存位置。
     如果文档选择器不可用，应用会使用可访问的备份文件夹及其文件浏览器。
     请检查设备权限以及所选文件的访问权限。还原前，请核对备份名称和配置文件数量，然后确认操作。
 </FAQ>

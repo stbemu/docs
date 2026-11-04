@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     Este é um problema conhecido em alguns dispositivos Sony, Philips e Xiaomi. Ele também pode afetar outros dispositivos.
 
     Para resolvê-lo, configure a aplicação para usar o nível de volume do sistema (global):
-    aceda a [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) e ative ***Always use system volume level***.
+    aceda a [Definições](/settings) > [Reprodução e comportamento](/settings/common-settings#playback--behavior) e ative ***Utilizar sempre o volume do sistema***.
     Recarregue o portal ativo pelo menu da aplicação para que as alterações entrem em vigor.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="Não consigo criar ou restaurar uma cópia de segurança na aplicação">
-    Na interface reformulada de Settings, abra [Backup & restore](/settings/backup-restore) e use o seletor de documentos do Android para selecionar um ficheiro ou local para guardar.
+    Na interface reformulada de Definições, abra [Cópia de segurança e restauro](/settings/backup-restore) e use o seletor de documentos do Android para selecionar um ficheiro ou local para guardar.
     Se não houver um seletor disponível, a aplicação utilizará as pastas de cópia de segurança acessíveis e o seu navegador de ficheiros.
     Verifique as permissões do dispositivo e o acesso ao ficheiro selecionado. Antes de restaurar, verifique o nome da cópia de segurança e o número de perfis e confirme a operação.
 </FAQ>

@@ -6,10 +6,10 @@ sidebar_label: الملفات الشخصية
 
 # الملفات الشخصية لأجهزة STB {/* #stb-profiles */}
 
-الملف الشخصي <bdi dir="ltr">**STB profile**</bdi> هو مجموعة خيارات لمحاكاة جهاز استقبال داخل التطبيق. ينشئ التطبيق ملفًا شخصيًا واحدًا عند تشغيله للمرة الأولى.
+الملف الشخصي <bdi dir="auto">**ملف شخصي STB**</bdi> هو مجموعة خيارات لمحاكاة جهاز استقبال داخل التطبيق. ينشئ التطبيق ملفًا شخصيًا واحدًا عند تشغيله للمرة الأولى.
 يمكنك تعديله أو إضافة ملفات شخصية أخرى لتحميل بوابات مختلفة على الجهاز نفسه.
-افتح <span dir="ltr"><bdi dir="ltr">**Settings > Profiles**</bdi></span> واختر <bdi dir="ltr">**Add profile**</bdi>، أو اختر ملفًا شخصيًا موجودًا لتعديله.
-تجمع صفحة النظرة العامة الخيارات ضمن <bdi dir="ltr">**Connection**</bdi> و<bdi dir="ltr">**Playback & device**</bdi> و<bdi dir="ltr">**Manage profile**</bdi>.
+افتح <span dir="auto"><bdi dir="auto">**الإعدادات > الملفات الشخصية**</bdi></span> واختر <bdi dir="auto">**إضافة ملف شخصي**</bdi>، أو اختر ملفًا شخصيًا موجودًا لتعديله.
+تجمع صفحة النظرة العامة الخيارات ضمن <bdi dir="auto">**الاتصال**</bdi> و<bdi dir="auto">**التشغيل والجهاز**</bdi> و<bdi dir="auto">**إدارة الملف الشخصي**</bdi>.
 تعتمد الإجراءات المتاحة على إصدار التطبيق والقيود المفروضة على الملف الشخصي. لا يمكن حذف الملف الشخصي النشط؛
 انتقل إلى ملف شخصي آخر قبل حذفه. يتطلب الحذف تأكيدًا.
 
@@ -19,85 +19,85 @@ sidebar_label: الملفات الشخصية
 لا يوفر StbEmu أي وسائط أو قوائم تشغيل IPTV، ولا يستضيفها أو يفهرسها.
 يجب أن يكون للمستخدمين حق قانوني في الوصول إلى المحتوى الذي يستخدمونه عبر المحاكي.
 
-- [Profile name](#profile-name)
-- [Portal settings](#portal-settings)
-    - [Portal URL](#portal-url)
-    - [Portal language](#portal-language)
-    - [HTTP Proxy settings](#http-proxy-settings)
-        - [Use HTTP proxy](#use-http-proxy)
-        - [Proxy host name](#proxy-host-name)
-        - [Proxy port](#proxy-port)
-    - [Portal is internal](#portal-is-internal)
-    - [Internal portal URL](#internal-portal-url)
-- [STB configuration](#stb-configuration)
-    - [STB Model](#stb-model)
-    - [Firmware](#firmware)
-    - [Firmware settings](#firmware-settings)
-    - [User Agent](#user-agent)
-    - [Screen resolution](#screen-resolution)
-    - [MAC address](#mac-address)
-    - [Serial number](#serial-number)
-    - [Device ID](#device-id)
-        - [Use MAC-based device ID](#use-mac-based-device-id)
-        - [Send Device ID](#send-device-id)
-        - [Device ID random seed](#device-id-random-seed)
-        - [Device ID](#device-id-value)
-        - [Custom device ID 2 and signature](#custom-device-id-2-and-signature)
-        - [Device ID 2](#device-id-2)
-        - [Signature](#signature)
-        - [Reset device ID to default value](#reset-device-id-to-default-value)
-    - [Hardware settings](#hardware-settings)
-        - [Vendor](#vendor)
-        - [Hardware version](#hardware-version)
-- [Media player settings](#media-player-settings)
-    - [Media player](#media-player)
-    - [UDPXY settings](#udpxy-settings)
-        - [Enable UDPXY support](#enable-udxpy-support)
-        - [UDPXY server URL](#udpxy-server-url)
-        - [Overwrite stream protocol](#overwrite-stream-protocol)
-- [Advanced settings](#advanced-settings)
+- [اسم الملف الشخصي](#profile-name)
+- [إعدادات البوابة](#portal-settings)
+    - [عنوان URL للبوابة](#portal-url)
+    - [لغة البوابة](#portal-language)
+    - [إعدادات وكيل HTTP](#http-proxy-settings)
+        - [استخدام وكيل HTTP](#use-http-proxy)
+        - [اسم مضيف الوكيل](#proxy-host-name)
+        - [منفذ الوكيل](#proxy-port)
+    - [البوابة داخلية](#portal-is-internal)
+    - [عنوان URL للبوابة (البوابة داخلية)](#internal-portal-url)
+- [تهيئة STB](#stb-configuration)
+    - [طراز STB](#stb-model)
+    - [البرنامج الثابت](#firmware)
+    - [إعدادات البرنامج الثابت](#firmware-settings)
+    - [وكيل المستخدم](#user-agent)
+    - [دقة الشاشة](#screen-resolution)
+    - [عنوان MAC](#mac-address)
+    - [الرقم التسلسلي](#serial-number)
+    - [معرّف الجهاز](#device-id)
+        - [استخدام معرّف جهاز مستند إلى MAC](#use-mac-based-device-id)
+        - [إرسال معرّف الجهاز](#send-device-id)
+        - [بذرة العشوائية لمعرّف الجهاز](#device-id-random-seed)
+        - [معرّف الجهاز](#device-id-value)
+        - [معرّف الجهاز 2 والتوقيع المخصصان](#custom-device-id-2-and-signature)
+        - [معرّف الجهاز 2](#device-id-2)
+        - [التوقيع](#signature)
+        - [إعادة تعيين معرّف الجهاز إلى القيمة الافتراضية…](#reset-device-id-to-default-value)
+    - [إعدادات العتاد](#hardware-settings)
+        - [الشركة المصنّعة](#vendor)
+        - [إصدار العتاد](#hardware-version)
+- [إعدادات مشغّل الوسائط](#media-player-settings)
+    - [مشغّل الوسائط](#media-player)
+    - [إعدادات UDPXY](#udpxy-settings)
+        - [تفعيل دعم UDPXY](#enable-udxpy-support)
+        - [عنوان URL لخادم UDPXY](#udpxy-server-url)
+        - [تجاوز بروتوكول البث](#overwrite-stream-protocol)
+- [الإعدادات المتقدمة](#advanced-settings)
 
-### Profile name
+### اسم الملف الشخصي {/* #profile-name */}
 اسم الملف الشخصي. يمكن أن يكون أي نص غير فارغ.
 
-### Portal settings
+### إعدادات البوابة {/* #portal-settings */}
 الخيارات الخاصة بالبوابة.
-##### Portal URL
+##### عنوان URL للبوابة {/* #portal-url */}
 أدخل عنوان URL مطلقًا يبدأ بـ <bdi dir="ltr">**http://**</bdi> أو <bdi dir="ltr">**https://**</bdi>. تُدعم مضيفات الشبكة المحلية وlocalhost وعناوين IPv6 وأسماء النطاقات الدولية. يجب ألا تحتوي عناوين URL للشبكة على مسافات بيضاء.
 بالنسبة إلى البوابة الداخلية، يُقبل أيضًا مسار مطلق في نظام الملفات أو عنوان URL مطلق مدعوم يبدأ بـ <bdi dir="ltr">**file://**</bdi>. لا يقبل المحرر الجديد عناوين FTP.
 
-##### Portal language
+##### لغة البوابة {/* #portal-language */}
 لغة البوابة الافتراضية، وتُحدد برمز لغة من حرفين وفق معيار [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1).
 
-#### HTTP Proxy settings
+#### إعدادات وكيل HTTP {/* #http-proxy-settings */}
 إعدادات وكيل HTTP.
 
-##### Use HTTP proxy
+##### استخدام وكيل HTTP {/* #use-http-proxy */}
 فعّل هذا الخيار إذا كنت تريد استخدام وكيل HTTP.
 
-##### Proxy host name
+##### اسم مضيف الوكيل {/* #proxy-host-name */}
 مضيف الوكيل منفصل عن منفذه؛ والمضيف الافتراضي هو 127.0.0.1.
-##### Proxy port
-القيمة الافتراضية: 3128. لا يتوفر محررا المضيف والمنفذ إلا عند تفعيل <bdi dir="ltr">**Use HTTP proxy**</bdi>.
+##### منفذ الوكيل {/* #proxy-port */}
+القيمة الافتراضية: 3128. لا يتوفر محررا المضيف والمنفذ إلا عند تفعيل <bdi dir="auto">**استخدام وكيل HTTP**</bdi>.
 
-##### Portal is internal
+##### البوابة داخلية {/* #portal-is-internal */}
 فعّل هذا الخيار لاستخدام بوابة داخلية لأجهزة MAG. يؤدي عنوان URL محلي للبوابة إلى تفعيله تلقائيًا وتعطيل إمكانية تغيير المفتاح. يؤدي التغيير إلى عنوان URL للشبكة إلى إلغاء الإعداد التلقائي للبوابة الداخلية.
 
-##### Internal portal URL
-استخدم حقل <bdi dir="ltr">**Portal URL**</bdi> للمسار المحلي أو عنوان URL للملف؛ لا يوجد محرر منفصل لعنوان URL الداخلي.
+##### عنوان URL للبوابة (البوابة داخلية) {/* #internal-portal-url */}
+استخدم حقل <bdi dir="auto">**عنوان URL للبوابة**</bdi> للمسار المحلي أو عنوان URL للملف؛ لا يوجد محرر منفصل لعنوان URL الداخلي.
 
-لتثبيت بوابة، افتح <span dir="ltr"><bdi dir="ltr">**Settings > Profiles > ملفك الشخصي > Portal settings**</bdi></span>، واستخدم إجراء التثبيت، وحدد أرشيف البوابة. انتظر اكتمال الاستخراج،
+لتثبيت بوابة، افتح <span dir="auto"><bdi dir="auto">**الإعدادات > الملفات الشخصية > ملفك الشخصي > إعدادات البوابة**</bdi></span>، واستخدم إجراء التثبيت، وحدد أرشيف البوابة. انتظر اكتمال الاستخراج،
 ثم أكد عنوان URL المحلي المقترح. تثبيت الملفات وقبول عنوان URL خطوتان منفصلتان.
-استخدم إجراء الإزالة في <bdi dir="ltr">**Portal settings**</bdi> لإزالة بوابة داخلية مثبتة.
+استخدم إجراء الإزالة في <bdi dir="auto">**إعدادات البوابة**</bdi> لإزالة بوابة داخلية مثبتة.
 
-### STB configuration
+### تهيئة STB {/* #stb-configuration */}
 إعدادات المحاكاة الرئيسية.
 
-#### STB Model
+#### طراز STB {/* #stb-model */}
 طراز جهاز STB المراد محاكاته.
 
-#### Firmware
-البرنامج الثابت <bdi dir="ltr">**firmware**</bdi> المراد محاكاته؛ لا يُثبّت أي برنامج ثابت فعلي. تتطلب بعض البوابات برنامجًا ثابتًا معينًا.
+#### البرنامج الثابت {/* #firmware */}
+البرنامج الثابت <bdi dir="auto">**البرنامج الثابت**</bdi> المراد محاكاته؛ لا يُثبّت أي برنامج ثابت فعلي. تتطلب بعض البوابات برنامجًا ثابتًا معينًا.
 في هذه الحالة، اختره من القائمة إذا كان متاحًا.
 لا تتيح معظم طرز STB المدعومة سوى البرنامج الثابت <bdi dir="ltr">**Generic**</bdi>، الذي يمثل عادةً أحدث إصدار.
 
@@ -107,19 +107,19 @@ sidebar_label: الملفات الشخصية
 
 يُنصح معظم المستخدمين باستخدام البرنامج الثابت <bdi dir="ltr">**Generic**</bdi> (المحدد افتراضيًا).
 
-#### Firmware settings
+#### إعدادات البرنامج الثابت {/* #firmware-settings */}
 يتوفر هذا الخيار فقط مع البرنامج الثابت <bdi dir="ltr">**Custom**</bdi> (المدعوم حاليًا لجهاز MAG 250 فقط).
 اضبط إصدارات محرك المشغل وJavaScript API وSTB API، إلى جانب إصدار صورة النظام ووصفها وتاريخها.
-فعّل استخدام User Agent مخصص قبل تعديل نص User Agent المخصص.
+فعّل استخدام وكيل المستخدم مخصص قبل تعديل نص وكيل المستخدم المخصص.
 
-#### User Agent
-نص User Agent لمتصفح الويب الخاص بالتطبيق.
+#### وكيل المستخدم {/* #user-agent */}
+نص وكيل المستخدم لمتصفح الويب الخاص بالتطبيق.
 
-#### Screen resolution
+#### دقة الشاشة {/* #screen-resolution */}
 دقة الشاشة المراد محاكاتها؛ لا يغيّر هذا دقة العرض الفعلية.
 اختر دقة تدعمها بوابتك، وعادةً ما تكون <bdi dir="ltr">**1280x720**</bdi>.
 
-#### MAC address
+#### عنوان MAC {/* #mac-address */}
 عنوان MAC للجهاز الذي تتم محاكاته. يمكنك استخدام عنوان MAC لجهاز MAG 250 حقيقي تملكه،
 أو 12 رقمًا عشوائيًا بالنظام الست عشري (0–9، A–F)، مقسمة إلى أزواج تفصل بينها نقطتان رأسيتان. [^wrong_mac]
 
@@ -129,63 +129,63 @@ sidebar_label: الملفات الشخصية
     يعني هذا أن التطبيق لم يستطع اكتشافه بصورة صحيحة بسبب قيود Android.
     استبدل الجزء **00:00:00** بأرقام عشوائية بالنظام الست عشري، مع الإبقاء على النقطتين الرأسيتين بين كل زوجين.
 
-#### Serial number
+#### الرقم التسلسلي {/* #serial-number */}
 الرقم التسلسلي للجهاز الذي تتم محاكاته. لا تتحقق منه معظم البوابات، لذا يمكن عادةً استخدام أي نص.
 
-#### Device ID
+#### معرّف الجهاز {/* #device-id */}
 إعدادات معرّف الجهاز.
 
-##### Use MAC-based device ID
-ولّد معرّف الجهاز من عنوان MAC الخاص به. اضغط <bdi dir="ltr">**Reset device ID**</bdi> بعد تفعيل هذا الخيار أو
+##### استخدام معرّف جهاز مستند إلى MAC {/* #use-mac-based-device-id */}
+ولّد معرّف الجهاز من عنوان MAC الخاص به. اضغط <bdi dir="auto">**إعادة تعيين معرّف الجهاز إلى القيمة الافتراضية…**</bdi> بعد تفعيل هذا الخيار أو
 تعطيله لإعادة توليد المعرّف.
 
-##### Send Device ID
+##### إرسال معرّف الجهاز {/* #send-device-id */}
 أرسل معرّف الجهاز عندما تطلبه البوابة. عند التعطيل، يرسل التطبيق نصًا فارغًا.
 
-##### Device ID random seed
+##### بذرة العشوائية لمعرّف الجهاز {/* #device-id-random-seed */}
 القيمة الأولية المستخدمة لتوليد معرّف الجهاز. استخدم القيمة الأولية نفسها على جميع الأجهزة التي تستخدم عنوان URL للبوابة نفسه
 وعنوان MAC نفسه. يؤدي تأكيد تغيير القيمة الأولية إلى إعادة توليد المعرّفات تلقائيًا.
-لا تضغط Reset إذا كنت تريد الاحتفاظ بالقيمة الأولية: إذ يمسحها Reset.
+لا تضغط **إعادة تعيين معرّف الجهاز إلى القيمة الافتراضية…** إذا كنت تريد الاحتفاظ بالقيمة الأولية: إذ يمسحها هذا الإجراء.
 
-##### Device ID value
+##### معرّف الجهاز {/* #device-id-value */}
 معرّف الجهاز. استخدم القيمة المُولّدة أو أدخل قيمة تختارها.
 
-##### Custom device ID 2 and signature
-فعّل هذا الخيار لتعديل Device ID 2 والتوقيع.
+##### معرّف الجهاز 2 والتوقيع المخصصان {/* #custom-device-id-2-and-signature */}
+فعّل هذا الخيار لتعديل معرّف الجهاز 2 والتوقيع.
 
-##### Device ID 2
-##### Signature
-##### Reset device ID to default value
-بعد التأكيد، امسح القيمة الأولية وأعِد توليد <bdi dir="ltr">**Device ID**</bdi> و<bdi dir="ltr">**Device ID 2**</bdi> والتوقيع من قيم الملف الشخصي الحالية. يُحتفظ بإعدادات الملف الشخصي الأخرى.
+##### معرّف الجهاز 2 {/* #device-id-2 */}
+##### التوقيع {/* #signature */}
+##### إعادة تعيين معرّف الجهاز إلى القيمة الافتراضية… {/* #reset-device-id-to-default-value */}
+بعد التأكيد، امسح القيمة الأولية وأعِد توليد <bdi dir="auto">**معرّف الجهاز**</bdi> و<bdi dir="auto">**معرّف الجهاز 2**</bdi> والتوقيع من قيم الملف الشخصي الحالية. يُحتفظ بإعدادات الملف الشخصي الأخرى.
 
-لا يتوفر التعديل اليدوي لـ <bdi dir="ltr">**Device ID**</bdi> إلا عند تفعيل <bdi dir="ltr">**Send Device ID**</bdi> وتعطيل المعرّفات المستندة إلى MAC.
-يتطلب تعديل <bdi dir="ltr">**Device ID 2**</bdi> و<bdi dir="ltr">**Signature**</bdi> أيضًا تفعيل <bdi dir="ltr">**Custom device ID 2 and signature**</bdi>.
+لا يتوفر التعديل اليدوي لـ <bdi dir="auto">**معرّف الجهاز**</bdi> إلا عند تفعيل <bdi dir="auto">**إرسال معرّف الجهاز**</bdi> وتعطيل المعرّفات المستندة إلى MAC.
+يتطلب تعديل <bdi dir="auto">**معرّف الجهاز 2**</bdi> و<bdi dir="auto">**التوقيع**</bdi> أيضًا تفعيل <bdi dir="auto">**معرّف الجهاز 2 والتوقيع المخصصان**</bdi>.
 تظل القيم المشتقة تلقائيًا قابلة للقراءة عندما لا يتوفر التعديل.
 
-#### Hardware settings
-##### Vendor
-##### Hardware version
+#### إعدادات العتاد {/* #hardware-settings */}
+##### الشركة المصنّعة {/* #vendor */}
+##### إصدار العتاد {/* #hardware-version */}
 
 تتضمن خيارات الجهاز أيضًا التوافق مع Ministra وإعادة توجيه المتصفح. لا تغيّرها إلا وفقًا لمتطلبات بوابتك.
 
-### Media player settings
+### إعدادات مشغّل الوسائط {/* #media-player-settings */}
 
 إعدادات مشغل الوسائط لهذا الملف الشخصي.
-#### Media player
+#### مشغّل الوسائط {/* #media-player */}
 اختر مشغل الوسائط الافتراضي لهذا الملف الشخصي.
 
 تتضمن القائمة الاختيار التلقائي وExo ومشغل Android الداخلي ومشغلًا خارجيًا،
 بالإضافة إلى أي مشغلات أخرى متاحة في نسختك. اختر من الخيارات المعروضة في التطبيق.
 يعتمد دعم برامج الترميز في المشغل الداخلي على Android؛ وتفتح المشغلات الخارجية البث في تطبيق آخر.
 
-#### UDPXY settings
-##### Enable UDPXY support {/* #enable-udxpy-support */}
+#### إعدادات UDPXY {/* #udpxy-settings */}
+##### تفعيل دعم UDPXY {/* #enable-udxpy-support */}
 لا تفعّل UDPXY إلا بعد إدخال عنوان URL صالح لخادم HTTP/HTTPS.
-##### UDPXY server URL
+##### عنوان URL لخادم UDPXY {/* #udpxy-server-url */}
 يمكنك إدخال عنوان URL عندما يكون UDPXY معطلًا. يُسمح بعنوان URL فارغ فقط عند التعطيل؛ ويجب أن يكون العنوان غير الفارغ عنوان HTTP/HTTPS صالحًا.
-##### Overwrite stream protocol
+##### تجاوز بروتوكول البث {/* #overwrite-stream-protocol */}
 اختر بروتوكول البث البديل عند تفعيل UDPXY.
-### Advanced settings
+### الإعدادات المتقدمة {/* #advanced-settings */}
 تتضمن خيارات التوافق الخاصة بالملف الشخصي تصحيحات CSS واكتشاف المحاكي وإصلاحات لون الخلفية والملفات المحلية وAJAX،
-وأحداث الرجوع والأزرار للمشغلات الخارجية. تعتمد خيارات أحداث Back وExit وOK على خيار حدث العودة إلى قائمة القنوات.
+وأحداث الرجوع والأزرار للمشغلات الخارجية. تعتمد خيارات أحداث رجوع وخروج وOK على خيار حدث العودة إلى قائمة القنوات.
 لا تغيّر هذه الخيارات إلا إذا تطلبت بوابتك أو المشغل الخارجي ذلك.

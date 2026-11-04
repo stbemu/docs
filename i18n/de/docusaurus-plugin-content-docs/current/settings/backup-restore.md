@@ -1,22 +1,22 @@
 ---
 id: backup-restore
-title: Sichern & Wiederherstellen
-sidebar_label: Sichern & Wiederherstellen
+title: Sichern und Wiederherstellen
+sidebar_label: Sichern und Wiederherstellen
 ---
 
 # Sichern & Wiederherstellen {/* #backup--restore */}
 
-Öffnen Sie **Settings > Backup & restore**. Diese Kategorie ist nur verfügbar, wenn Sicherungsvorgänge für Ihre App aktiviert sind.
+Öffnen Sie **Einstellungen > Sichern und Wiederherstellen**. Diese Kategorie ist nur verfügbar, wenn Sicherungsvorgänge für Ihre App aktiviert sind.
 
 ## Eine Sicherung speichern oder teilen {/* #save-or-share-a-backup */}
 
-Wählen Sie **Save settings and profiles…** und anschließend einen Zielort in der Android-Dokumentauswahl. Wählen Sie **Share settings and profiles…**, um eine Sicherung zu erstellen und über die Android-Freigabeoberfläche zu versenden.
+Wählen Sie **Einstellungen und Profile sichern…** und anschließend einen Zielort in der Android-Dokumentauswahl. Wählen Sie **Einstellungen und Profile teilen…**, um eine Sicherung zu erstellen und über die Android-Freigabeoberfläche zu versenden.
 
-Ist keine Dokumentauswahl verfügbar, verwendet die App die zugänglichen Sicherungsordner und ihren Dateibrowser. **Browse saved backups** listet die in den verfügbaren Ordnern gefundenen Sicherungen auf. Geräteberechtigungen und verfügbare Dateianbieter können den Zugriff auf Dateien einschränken.
+Ist keine Dokumentauswahl verfügbar, verwendet die App die zugänglichen Sicherungsordner und ihren Dateibrowser. **Gespeicherte Sicherungen durchsuchen** listet die in den verfügbaren Ordnern gefundenen Sicherungen auf. Geräteberechtigungen und verfügbare Dateianbieter können den Zugriff auf Dateien einschränken.
 
 ## Eine Sicherung wiederherstellen {/* #restore-a-backup */}
 
-1. Wählen Sie **Restore settings and profiles…** und eine Sicherung aus oder wählen Sie eine im Browser für gespeicherte Sicherungen.
+1. Wählen Sie **Einstellungen und Profile wiederherstellen…** und eine Sicherung aus oder wählen Sie eine im Browser für gespeicherte Sicherungen.
 2. Prüfen Sie den Dateinamen, die Anzahl der Profile und die aufgeführten Auswirkungen der Wiederherstellung.
 3. Bestätigen Sie die Wiederherstellung. Das Schließen der Auswahl oder Verweigern einer Berechtigung startet sie nicht.
 

@@ -21,6 +21,6 @@ sidebar_label: مقدمة
 يتوفر التطبيق بإصدارين: مجاني ومدفوع. يعرض [الإصدار المجاني](https://play.google.com/store/apps/details?id=com.mvas.stb.emu.free) الإعلانات، بينما لا يعرضها [إصدار Pro](https://play.google.com/store/apps/details?id=com.mvas.stb.emu.pro).
 وهذا هو الفرق الرئيسي بينهما.
 
-راجع صفحة [Settings](/settings).
+راجع صفحة [الإعدادات](/settings).
 
 راجع صفحة [التنزيل](/download).

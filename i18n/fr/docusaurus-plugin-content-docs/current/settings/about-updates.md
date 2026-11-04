@@ -6,7 +6,7 @@ sidebar_label: À propos et mises à jour
 
 # À propos et mises à jour {/* #about--updates */}
 
-Ouvrez **Settings > About & updates** pour consulter les informations sur l’application et les **Third-party notices**, qui présentent les mentions relatives aux bibliothèques fournies avec l’application.
+Ouvrez **Paramètres > À propos et mises à jour** pour consulter les informations sur l’application et les **Mentions relatives aux tiers**, qui présentent les mentions relatives aux bibliothèques fournies avec l’application.
 
 Les paramètres, la liste et les détails des mises à jour apparaissent uniquement dans les versions qui permettent les mises à jour intégrées. Ils sont désactivés dans les variantes Google Play de la version des paramètres décrite ici. L’absence de section de mise à jour n’indique pas une erreur de configuration.
 

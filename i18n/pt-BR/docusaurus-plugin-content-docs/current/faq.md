@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     Este é um problema conhecido em alguns dispositivos Sony, Philips e Xiaomi. Ele também pode afetar outros dispositivos.
 
     Para resolvê-lo, configure o aplicativo para usar o nível de volume do sistema (global):
-    acesse [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) e ative ***Always use system volume level***.
+    acesse [Configurações](/settings) > [Reprodução e comportamento](/settings/common-settings#playback--behavior) e ative ***Sempre usar o volume do sistema***.
     Recarregue o portal ativo pelo menu do aplicativo para que as alterações entrem em vigor.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="Não consigo criar ou restaurar um backup no aplicativo">
-    Nas Configurações reformuladas, abra [Backup & restore](/settings/backup-restore) e use o seletor de documentos do Android para selecionar um arquivo ou local para salvar.
+    Nas Configurações reformuladas, abra [Backup e restauração](/settings/backup-restore) e use o seletor de documentos do Android para selecionar um arquivo ou local para salvar.
     Se não houver um seletor disponível, o aplicativo usará as pastas de backup acessíveis e seu navegador de arquivos.
     Verifique as permissões do dispositivo e o acesso ao arquivo selecionado. Antes de restaurar, confira o nome do backup e a quantidade de perfis e confirme a operação.
 </FAQ>

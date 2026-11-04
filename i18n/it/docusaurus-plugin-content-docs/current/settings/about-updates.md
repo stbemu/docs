@@ -6,7 +6,7 @@ sidebar_label: Informazioni e aggiornamenti
 
 # Informazioni e aggiornamenti {/* #about--updates */}
 
-Apri **Settings > About & updates** per informazioni sull'app e **Third-party notices**, che elenca gli avvisi relativi alle librerie distribuite con l'app.
+Apri **Impostazioni > Informazioni e aggiornamenti** per informazioni sull'app e **Note di terze parti**, che elenca gli avvisi relativi alle librerie distribuite con l'app.
 
 Le impostazioni, l'elenco e i dettagli degli aggiornamenti compaiono solo nelle build che abilitano gli aggiornamenti nell'app. Sono disabilitati nelle varianti Google Play della versione delle impostazioni descritta qui. L'assenza della sezione aggiornamenti non indica un errore nelle impostazioni.
 

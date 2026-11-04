@@ -1,22 +1,22 @@
 ---
 id: backup-restore
-title: Kopie zapasowe i przywracanie
-sidebar_label: Kopie zapasowe i przywracanie
+title: Kopia zapasowa i przywracanie
+sidebar_label: Kopia zapasowa i przywracanie
 ---
 
-# Backup & restore
+# Kopia zapasowa i przywracanie {/* #backup--restore */}
 
-Otwórz **Settings > Backup & restore**. Ta kategoria jest dostępna tylko wtedy, gdy operacje kopii zapasowych są włączone w Twojej aplikacji.
+Otwórz **Ustawienia > Kopia zapasowa i przywracanie**. Ta kategoria jest dostępna tylko wtedy, gdy operacje kopii zapasowych są włączone w Twojej aplikacji.
 
 ## Zapisywanie lub udostępnianie kopii zapasowej {/* #save-or-share-a-backup */}
 
-Wybierz **Save settings and profiles…** i wskaż miejsce docelowe w systemowym oknie wyboru dokumentów Androida. Wybierz **Share settings and profiles…**, aby utworzyć kopię i wysłać ją przez systemowy interfejs udostępniania Androida.
+Wybierz **Zapisz ustawienia i profile…** i wskaż miejsce docelowe w systemowym oknie wyboru dokumentów Androida. Wybierz **Udostępnij ustawienia i profile…**, aby utworzyć kopię i wysłać ją przez systemowy interfejs udostępniania Androida.
 
-Jeśli systemowe okno wyboru dokumentów nie jest dostępne, aplikacja korzysta z dostępnych folderów kopii zapasowych i własnej przeglądarki plików. **Browse saved backups** pokazuje kopie znalezione w dostępnych folderach. Uprawnienia urządzenia i dostępni dostawcy plików mogą ograniczać dostęp do plików.
+Jeśli systemowe okno wyboru dokumentów nie jest dostępne, aplikacja korzysta z dostępnych folderów kopii zapasowych i własnej przeglądarki plików. **Przeglądaj zapisane kopie zapasowe** pokazuje kopie znalezione w dostępnych folderach. Uprawnienia urządzenia i dostępni dostawcy plików mogą ograniczać dostęp do plików.
 
 ## Przywracanie kopii zapasowej {/* #restore-a-backup */}
 
-1. Wybierz **Restore settings and profiles…** i wskaż kopię zapasową lub wybierz ją w przeglądarce zapisanych kopii.
+1. Wybierz **Przywróć ustawienia i profile…** i wskaż kopię zapasową lub wybierz ją w przeglądarce zapisanych kopii.
 2. Sprawdź nazwę pliku, liczbę profili i wymienione skutki przywrócenia.
 3. Potwierdź przywrócenie. Anulowanie wyboru lub odmowa nadania uprawnień nie rozpoczyna przywracania.
 

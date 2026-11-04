@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     Dit is een bekend probleem op sommige apparaten van Sony, Philips en Xiaomi. Ook andere apparaten kunnen ermee te maken hebben.
 
     Stel de app als volgt in om het systeemvolume (het algemene volume) te gebruiken:
-    ga naar [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) en schakel ***Always use system volume level*** in.
+    ga naar [Instellingen](/settings) > [Afspelen en gedrag](/settings/common-settings#playback--behavior) en schakel ***Altijd systeemvolume gebruiken*** in.
     Laad het actieve portaal opnieuw via het appmenu om de wijzigingen toe te passen.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="Ik kan geen back-up maken of herstellen in de app">
-    Open in de vernieuwde Settings [Backup & restore](/settings/backup-restore) en gebruik de documentkiezer van Android om een bestand of opslaglocatie te selecteren.
+    Open in de vernieuwde Instellingen [Back-up en herstel](/settings/backup-restore) en gebruik de documentkiezer van Android om een bestand of opslaglocatie te selecteren.
     Als er geen kiezer beschikbaar is, gebruikt de app toegankelijke back-upmappen en zijn eigen bestandsbrowser.
     Controleer de apparaatmachtigingen en de toegang tot het geselecteerde bestand. Controleer vóór het herstellen de back-upnaam en het aantal profielen en bevestig de bewerking.
 </FAQ>

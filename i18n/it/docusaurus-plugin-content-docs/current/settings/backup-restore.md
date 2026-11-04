@@ -6,17 +6,17 @@ sidebar_label: Backup e ripristino
 
 # Backup e ripristino {/* #backup--restore */}
 
-Apri **Settings > Backup & restore**. Questa categoria è disponibile solo se le operazioni di backup sono abilitate nella tua app.
+Apri **Impostazioni > Backup e ripristino**. Questa categoria è disponibile solo se le operazioni di backup sono abilitate nella tua app.
 
 ## Salvare o condividere un backup {/* #save-or-share-a-backup */}
 
-Seleziona **Save settings and profiles…** e scegli una destinazione nel selettore di documenti di Android. Seleziona **Share settings and profiles…** per creare un backup e inviarlo tramite l'interfaccia di condivisione di Android.
+Seleziona **Salva impostazioni e profili…** e scegli una destinazione nel selettore di documenti di Android. Seleziona **Condividi impostazioni e profili…** per creare un backup e inviarlo tramite l'interfaccia di condivisione di Android.
 
-Se non è disponibile un selettore di documenti, l'app usa le cartelle di backup accessibili e il proprio browser di file. **Browse saved backups** elenca i backup trovati nelle cartelle disponibili. Le autorizzazioni del dispositivo e i fornitori di file disponibili possono limitare i file accessibili.
+Se non è disponibile un selettore di documenti, l'app usa le cartelle di backup accessibili e il proprio browser di file. **Sfoglia i backup salvati** elenca i backup trovati nelle cartelle disponibili. Le autorizzazioni del dispositivo e i fornitori di file disponibili possono limitare i file accessibili.
 
 ## Ripristinare un backup {/* #restore-a-backup */}
 
-1. Seleziona **Restore settings and profiles…** e scegli un backup, oppure selezionane uno dal browser dei backup salvati.
+1. Seleziona **Ripristina impostazioni e profili…** e scegli un backup, oppure selezionane uno dal browser dei backup salvati.
 2. Controlla il nome del file, il numero di profili e gli effetti del ripristino elencati.
 3. Conferma il ripristino. Annullare il selettore o negare un'autorizzazione non lo avvia.
 

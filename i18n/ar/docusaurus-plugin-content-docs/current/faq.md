@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     هذه مشكلة معروفة في بعض أجهزة Sony وPhilips وXiaomi، وقد تؤثر في أجهزة أخرى أيضًا.
 
     لحلها، اضبط التطبيق لاستخدام مستوى صوت النظام العام:
-    انتقل إلى <span dir="ltr">[Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior)</span> وفعّل <bdi dir="ltr">***Always use system volume level***</bdi>.
+    انتقل إلى <span dir="auto">[الإعدادات](/settings) > [التشغيل والسلوك](/settings/common-settings#playback--behavior)</span> وفعّل <bdi dir="auto">***استخدام مستوى صوت النظام دائمًا***</bdi>.
     أعِد تحميل البوابة النشطة من قائمة التطبيق لتطبيق التغييرات.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="لا أستطيع إنشاء نسخة احتياطية أو استعادتها في التطبيق">
-    في واجهة Settings الجديدة، افتح [Backup & restore](/settings/backup-restore) واستخدم منتقي المستندات في Android لاختيار ملف أو موقع للحفظ.
+    في واجهة الإعدادات الجديدة، افتح [النسخ الاحتياطي والاستعادة](/settings/backup-restore) واستخدم منتقي المستندات في Android لاختيار ملف أو موقع للحفظ.
     إذا لم يتوفر منتقي مستندات، يستخدم التطبيق مجلدات النسخ الاحتياطية التي يمكن الوصول إليها ومتصفح الملفات الخاص به.
     تحقق من أذونات الجهاز وإمكانية الوصول إلى الملف المحدد. قبل الاستعادة، راجع اسم النسخة الاحتياطية وعدد الملفات الشخصية، ثم أكد العملية.
 </FAQ>

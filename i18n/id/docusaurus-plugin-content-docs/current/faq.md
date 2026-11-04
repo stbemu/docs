@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     Ini adalah masalah yang sudah diketahui pada beberapa perangkat Sony, Philips, dan Xiaomi. Perangkat lain juga mungkin terpengaruh.
 
     Untuk mengatasinya, atur aplikasi agar menggunakan tingkat volume sistem (global):
-    buka [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior), lalu aktifkan ***Always use system volume level***.
+    buka [Setelan](/settings) > [Pemutaran dan perilaku](/settings/common-settings#playback--behavior), lalu aktifkan ***Selalu gunakan volume sistem***.
     Muat ulang portal yang aktif dari menu aplikasi agar perubahan diterapkan.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="Saya tidak dapat membuat atau memulihkan cadangan dalam aplikasi">
-    Pada Settings yang didesain ulang, buka [Backup & restore](/settings/backup-restore), lalu gunakan pemilih dokumen Android untuk memilih berkas atau lokasi penyimpanan.
+    Pada Setelan yang didesain ulang, buka [Pencadangan dan pemulihan](/settings/backup-restore), lalu gunakan pemilih dokumen Android untuk memilih berkas atau lokasi penyimpanan.
     Jika pemilih tidak tersedia, aplikasi menggunakan folder cadangan yang dapat diakses dan peramban berkasnya.
     Periksa izin perangkat dan akses ke berkas yang dipilih. Sebelum memulihkan, tinjau nama cadangan dan jumlah profil, lalu konfirmasikan operasi.
 </FAQ>

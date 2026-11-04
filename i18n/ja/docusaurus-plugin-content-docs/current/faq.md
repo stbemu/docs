@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     これは一部の Sony、Philips、Xiaomi 製端末で確認されている問題です。他の端末でも発生する可能性があります。
 
     解決するには、システム共通の音量を使用するようにアプリを設定してください。
-    [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) を開き、***Always use system volume level*** を有効にします。
+    [設定](/settings) > [再生と動作](/settings/common-settings#playback--behavior) を開き、***常にシステムの音量を使用*** を有効にします。
     変更を反映するには、アプリのメニューから現在のポータルを再読み込みしてください。
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="アプリでバックアップを作成または復元できません">
-    新しい Settings では [Backup & restore](/settings/backup-restore) を開き、Android のドキュメント選択画面でファイルまたは保存先を選びます。
+    新しい 設定 では [バックアップと復元](/settings/backup-restore) を開き、Android のドキュメント選択画面でファイルまたは保存先を選びます。
     選択画面を利用できない場合は、アクセス可能なバックアップフォルダーとアプリ内ファイルブラウザーが使用されます。
     端末の権限と選択したファイルへのアクセスを確認してください。復元する前にバックアップ名とプロファイル数を確認し、操作を確定してください。
 </FAQ>

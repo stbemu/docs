@@ -6,44 +6,44 @@ sidebar_label: Uygulama ayarları
 
 # Uygulama ayarları {/* #application-settings */}
 
-Uygulama genelindeki seçenekler, [Settings](/settings) içinde aşağıdaki kategorilerde gruplanır. Profile özgü seçenekler [Profiles](/settings/profiles) altında bulunur.
+Uygulama genelindeki seçenekler, [Ayarlar](/settings) içinde aşağıdaki kategorilerde gruplanır. Profile özgü seçenekler [Profiller](/settings/profiles) altında bulunur.
 
-## Appearance & controls
-
-| Seçenek | Amaç |
-|--------|---------|
-| App language | Desteklenen bir uygulama dilini veya Android sistem varsayılanını kullanın. |
-| Hide navigation bar | Desteklendiği yerlerde Android'in gezinme düğmelerini gizleyin. Dokunmatik ekranda ilk dokunuş gezinmeyi gösterebilir; uygulama kontrollerini göstermek için ikinci bir dokunuş gerekebilir. |
-| Always show overlay buttons | Ekran kontrollerini gösterin. Uzaktan kumanda tuşlarına basıldığında istenmeyen düğmeler görünüyorsa TV kutusunda bu seçeneği kapatabilirsiniz. |
-| Hide controls after… (ms) | Ekran kontrollerinin zaman aşımını milisaniye cinsinden ayarlayın. Varsayılan: 5000 (5 saniye). |
-| Screen orientation | Uygulamanın ekran yönü davranışını seçin. |
-| Keyboard type | Uygulamanın kullandığı klavyeyi seçin. |
-| Software keyboard input method | Yazılım klavyesinden gelen girişin nasıl işleneceğini seçin. |
-
-## Playback & behavior
+## Görünüm ve kontroller {/* #appearance--controls */}
 
 | Seçenek | Amaç |
 |--------|---------|
-| Pause media in background | Başka bir uygulamaya geçerken oynatmayı duraklatın. Otomatik resim içinde resim etkin olduğunda bu kontrol kullanılamaz. |
-| Picture-in-picture | Android ve cihaz destekliyorsa uygulamadan çıkarken resim içinde resim kullanın. |
-| Auto start on device boot | Cihaz açıldıktan sonra uygulamayı başlatın. Uygulama dahili depolamaya yüklenmiş olmalıdır; cihazın kilit ekranı, kilit açılana kadar başlatmayı geciktirebilir. |
-| Always use system volume level | Ayrı bir uygulama ses seviyesi yerine sistem ses seviyesini kullanın. |
-| Enable recommendations | Desteklenen Android TV ana ekranlarında profil öneri kartlarını gösterin. |
-| Media sessions | Android medya oturumu entegrasyonunu etkinleştirin. |
+| Uygulama dili | Desteklenen bir uygulama dilini veya Android sistem varsayılanını kullanın. |
+| Gezinme çubuğunu gizle | Desteklendiği yerlerde Android'in gezinme düğmelerini gizleyin. Dokunmatik ekranda ilk dokunuş gezinmeyi gösterebilir; uygulama kontrollerini göstermek için ikinci bir dokunuş gerekebilir. |
+| Ekran düğmelerini her zaman göster | Ekran kontrollerini gösterin. Uzaktan kumanda tuşlarına basıldığında istenmeyen düğmeler görünüyorsa TV kutusunda bu seçeneği kapatabilirsiniz. |
+| Kontrolleri gizleme süresi… (ms) | Ekran kontrollerinin zaman aşımını milisaniye cinsinden ayarlayın. Varsayılan: 5000 (5 saniye). |
+| Ekran yönü | Uygulamanın ekran yönü davranışını seçin. |
+| Klavye türü | Uygulamanın kullandığı klavyeyi seçin. |
+| Yazılım klavyesi giriş yöntemi | Yazılım klavyesinden gelen girişin nasıl işleneceğini seçin. |
 
-## Network
+## Oynatma ve davranış {/* #playback--behavior */}
 
-Portal çok büyük veya çok küçük görünüyorsa **Scaling method** tarayıcı ölçeklendirmesini değiştirir. Çoğu cihaz varsayılan ayarı kullanabilir; düşük çözünürlüklü bir ekran farklı bir yöntem gerektirebilir.
+| Seçenek | Amaç |
+|--------|---------|
+| Arka planda durdur | Başka bir uygulamaya geçerken oynatmayı duraklatın. Otomatik resim içinde resim etkin olduğunda bu kontrol kullanılamaz. |
+| Küçültüldüğünde PiP moduna geç | Android ve cihaz destekliyorsa uygulamadan çıkarken resim içinde resim kullanın. |
+| Cihaz açılışında otomatik başlat | Cihaz açıldıktan sonra uygulamayı başlatın. Uygulama dahili depolamaya yüklenmiş olmalıdır; cihazın kilit ekranı, kilit açılana kadar başlatmayı geciktirebilir. |
+| Her zaman sistem ses düzeyini kullan | Ayrı bir uygulama ses seviyesi yerine sistem ses seviyesini kullanın. |
+| Önerileri etkinleştir | Desteklenen Android TV ana ekranlarında profil öneri kartlarını gösterin. |
+| Oynatma başladığında medya oturumu oluştur | Android medya oturumu entegrasyonunu etkinleştirin. |
 
-**Enable network cache**, portalın yüklenmesini iyileştirmek için ağ isteklerini önbelleğe alır. Tekrarlanan kimlik doğrulama sorunları veya başka ağ sorunlarıyla karşılaşırsanız devre dışı bırakın.
+## Ağ {/* #network */}
 
-**Cache size** KB cinsinden girilir. Varsayılan değer **20480 KB (20 MB)**'dır. Önbellek boyutu değişikliğini uygulamak için istendiğinde uygulamayı yeniden başlatın.
+Portal çok büyük veya çok küçük görünüyorsa **Ölçekleme yöntemi** tarayıcı ölçeklendirmesini değiştirir. Çoğu cihaz varsayılan ayarı kullanabilir; düşük çözünürlüklü bir ekran farklı bir yöntem gerektirebilir.
 
-## Security
+**Ağ önbelleğini etkinleştir**, portalın yüklenmesini iyileştirmek için ağ isteklerini önbelleğe alır. Tekrarlanan kimlik doğrulama sorunları veya başka ağ sorunlarıyla karşılaşırsanız devre dışı bırakın.
+
+**Önbellek boyutu (KB)** KB cinsinden girilir. Varsayılan değer **20480 KB (20 MB)**'dır. Önbellek boyutu değişikliğini uygulamak için istendiğinde uygulamayı yeniden başlatın.
+
+## Güvenlik {/* #security */}
 
 Ayarlar için parola korumasını etkinleştirip parolayı belirleyin. Korumalı ayarlar kimlik doğrulama gerektirir. Ekran yeniden oluşturulduğunda parola düzenleyicisi gizli değeri saklamaz; gerekirse yeniden girin.
 
-## Legacy remote
+## Eski uzaktan kumanda {/* #legacy-remote */}
 
 Bu kategori MAG 250, AuraHD ve benzer uzaktan kumanda uygulamaları için eski yazılımsal uzaktan kumanda hizmetini yapılandırır. [Companion](/settings/companion) ve [fiziksel tuş eşlemeden](/settings/key-maps) ayrıdır.
 

@@ -6,17 +6,17 @@ sidebar_label: Sauvegarde et restauration
 
 # Sauvegarde et restauration {/* #backup--restore */}
 
-Ouvrez **Settings > Backup & restore**. Cette catégorie est disponible uniquement si les opérations de sauvegarde sont activées pour votre application.
+Ouvrez **Paramètres > Sauvegarde et restauration**. Cette catégorie est disponible uniquement si les opérations de sauvegarde sont activées pour votre application.
 
 ## Enregistrer ou partager une sauvegarde {/* #save-or-share-a-backup */}
 
-Sélectionnez **Save settings and profiles…**, puis une destination dans le sélecteur de documents Android. Sélectionnez **Share settings and profiles…** pour créer une sauvegarde et l’envoyer via l’interface de partage Android.
+Sélectionnez **Enregistrer les paramètres et profils…**, puis une destination dans le sélecteur de documents Android. Sélectionnez **Partager les paramètres et profils…** pour créer une sauvegarde et l’envoyer via l’interface de partage Android.
 
-Si aucun sélecteur de documents n’est disponible, l’application utilise les dossiers de sauvegarde accessibles et son navigateur de fichiers. **Browse saved backups** affiche les sauvegardes trouvées dans les dossiers disponibles. Les autorisations de l’appareil et les fournisseurs de fichiers disponibles peuvent limiter l’accès aux fichiers.
+Si aucun sélecteur de documents n’est disponible, l’application utilise les dossiers de sauvegarde accessibles et son navigateur de fichiers. **Parcourir les sauvegardes enregistrées** affiche les sauvegardes trouvées dans les dossiers disponibles. Les autorisations de l’appareil et les fournisseurs de fichiers disponibles peuvent limiter l’accès aux fichiers.
 
 ## Restaurer une sauvegarde {/* #restore-a-backup */}
 
-1. Sélectionnez **Restore settings and profiles…**, puis une sauvegarde, ou choisissez-en une dans le navigateur des sauvegardes enregistrées.
+1. Sélectionnez **Restaurer les paramètres et profils…**, puis une sauvegarde, ou choisissez-en une dans le navigateur des sauvegardes enregistrées.
 2. Vérifiez le nom du fichier, le nombre de profils et les effets de la restauration indiqués.
 3. Confirmez la restauration. L’annulation du sélecteur ou le refus d’une autorisation ne la lance pas.
 

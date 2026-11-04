@@ -1,22 +1,22 @@
 ---
 id: backup-restore
-title: Cópias de segurança e restauro
-sidebar_label: Cópias de segurança e restauro
+title: Cópia de segurança e restauro
+sidebar_label: Cópia de segurança e restauro
 ---
 
-# Backup & restore
+# Cópia de segurança e restauro {/* #backup--restore */}
 
-Abra **Settings > Backup & restore**. Esta categoria está disponível apenas quando as operações de cópia de segurança estão habilitadas para a sua aplicação.
+Abra **Definições > Cópia de segurança e restauro**. Esta categoria está disponível apenas quando as operações de cópia de segurança estão habilitadas para a sua aplicação.
 
 ## Guardar ou partilhar uma cópia de segurança {/* #save-or-share-a-backup */}
 
-Selecione **Save settings and profiles…** e escolha um destino no seletor de documentos do Android. Selecione **Share settings and profiles…** para criar uma cópia de segurança e enviá-la pela interface de partilha do Android.
+Selecione **Guardar definições e perfis…** e escolha um destino no seletor de documentos do Android. Selecione **Partilhar definições e perfis…** para criar uma cópia de segurança e enviá-la pela interface de partilha do Android.
 
-Se não houver um seletor de documentos disponível, a aplicação utilizará as pastas de cópia de segurança acessíveis e o seu navegador de ficheiros. **Browse saved backups** lista as cópias de segurança encontradas nas pastas disponíveis. As permissões do dispositivo e os fornecedores de ficheiros disponíveis podem limitar os ficheiros a que pode aceder.
+Se não houver um seletor de documentos disponível, a aplicação utilizará as pastas de cópia de segurança acessíveis e o seu navegador de ficheiros. **Procurar cópias de segurança guardadas** lista as cópias de segurança encontradas nas pastas disponíveis. As permissões do dispositivo e os fornecedores de ficheiros disponíveis podem limitar os ficheiros a que pode aceder.
 
 ## Restaurar uma cópia de segurança {/* #restore-a-backup */}
 
-1. Selecione **Restore settings and profiles…** e escolha uma cópia de segurança ou selecione uma no navegador de cópias de segurança guardadas.
+1. Selecione **Restaurar definições e perfis…** e escolha uma cópia de segurança ou selecione uma no navegador de cópias de segurança guardadas.
 2. Verifique o nome do ficheiro, o número de perfis e os efeitos do restauro listados.
 3. Confirme o restauro. Cancelar o seletor ou negar a permissão não inicia o restauro.
 

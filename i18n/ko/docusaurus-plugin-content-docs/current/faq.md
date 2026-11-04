@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     이는 일부 Sony, Philips, Xiaomi 기기에서 알려진 문제이며, 다른 기기에서도 발생할 수 있습니다.
 
     해결하려면 앱에서 시스템 전체 음량을 사용하도록 설정하세요.
-    [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior)로 이동하여 ***Always use system volume level***을 켜세요.
+    [설정](/settings) > [재생 및 동작](/settings/common-settings#playback--behavior)로 이동하여 ***항상 시스템 음량 사용***을 켜세요.
     변경 사항을 적용하려면 앱 메뉴에서 현재 포털을 다시 로드하세요.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="앱에서 백업을 만들거나 복원할 수 없습니다">
-    새로 설계된 Settings에서 [Backup & restore](/settings/backup-restore)를 열고 Android 문서 선택기에서 파일이나 저장 위치를 선택하세요.
+    새로 설계된 설정에서 [백업 및 복원](/settings/backup-restore)를 열고 Android 문서 선택기에서 파일이나 저장 위치를 선택하세요.
     문서 선택기를 사용할 수 없으면 앱에서 접근 가능한 백업 폴더와 자체 파일 브라우저를 사용합니다.
     기기 권한과 선택한 파일에 대한 접근 권한을 확인하세요. 복원하기 전에 백업 이름과 프로필 수를 확인하고 작업을 승인하세요.
 </FAQ>

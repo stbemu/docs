@@ -4,19 +4,19 @@ title: Sigurnosno kopiranje i vraćanje
 sidebar_label: Sigurnosno kopiranje i vraćanje
 ---
 
-# Backup & restore
+# Sigurnosno kopiranje i vraćanje {/* #backup--restore */}
 
-Otvorite **Settings > Backup & restore**. Ova je kategorija dostupna samo kada su radnje sa sigurnosnim kopijama omogućene za vašu aplikaciju.
+Otvorite **Postavke > Sigurnosno kopiranje i vraćanje**. Ova je kategorija dostupna samo kada su radnje sa sigurnosnim kopijama omogućene za vašu aplikaciju.
 
 ## Spremanje ili dijeljenje sigurnosne kopije {/* #save-or-share-a-backup */}
 
-Odaberite **Save settings and profiles…** i odredište u Androidovu alatu za odabir dokumenata. Odaberite **Share settings and profiles…** za izradu sigurnosne kopije i slanje putem Androidova sučelja za dijeljenje.
+Odaberite **Spremi postavke i profile…** i odredište u Androidovu alatu za odabir dokumenata. Odaberite **Podijeli postavke i profile…** za izradu sigurnosne kopije i slanje putem Androidova sučelja za dijeljenje.
 
-Ako alat za odabir dokumenata nije dostupan, aplikacija upotrebljava dostupne mape sa sigurnosnim kopijama i vlastiti preglednik datoteka. **Browse saved backups** prikazuje sigurnosne kopije pronađene u dostupnim mapama. Dopuštenja uređaja i dostupni pružatelji datoteka mogu ograničiti pristup datotekama.
+Ako alat za odabir dokumenata nije dostupan, aplikacija upotrebljava dostupne mape sa sigurnosnim kopijama i vlastiti preglednik datoteka. **Pregledaj spremljene sigurnosne kopije** prikazuje sigurnosne kopije pronađene u dostupnim mapama. Dopuštenja uređaja i dostupni pružatelji datoteka mogu ograničiti pristup datotekama.
 
 ## Vraćanje sigurnosne kopije {/* #restore-a-backup */}
 
-1. Odaberite **Restore settings and profiles…** i sigurnosnu kopiju ili je odaberite u pregledniku spremljenih sigurnosnih kopija.
+1. Odaberite **Vrati postavke i profile…** i sigurnosnu kopiju ili je odaberite u pregledniku spremljenih sigurnosnih kopija.
 2. Pregledajte naziv datoteke, broj profila i navedene učinke vraćanja.
 3. Potvrdite vraćanje. Odustajanje od odabira ili odbijanje dopuštenja ne pokreće vraćanje.
 

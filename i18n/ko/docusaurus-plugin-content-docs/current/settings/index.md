@@ -4,35 +4,35 @@ title: 설정
 sidebar_label: 설정
 ---
 
-# Settings {/* #settings */}
+# 설정 {/* #settings */}
 
-앱 메뉴를 열고 **Settings**를 선택하세요. 이 가이드는 새로 설계된 Settings 화면을 설명합니다. 이전 앱 버전에서는 옵션 구성이 다를 수 있습니다. 사용할 수 있는 카테고리와 작업은 앱 에디션 및 구성에 따라 다릅니다.
+앱 메뉴를 열고 **설정**를 선택하세요. 이 가이드는 새로 설계된 설정 화면을 설명합니다. 이전 앱 버전에서는 옵션 구성이 다를 수 있습니다. 사용할 수 있는 카테고리와 작업은 앱 에디션 및 구성에 따라 다릅니다.
 
 ## 탐색 {/* #navigation */}
 
-TV에서는 위/아래 키로 왼쪽 영역의 카테고리를 선택하세요. 해당 페이지는 자동으로 로드됩니다. 오른쪽 키로 페이지에 들어가고 왼쪽 키로 카테고리에 돌아가며, OK로 컨트롤을 실행하고 Back으로 이전 페이지에 돌아갑니다. Enter와 Esc도 지원됩니다.
+TV에서는 위/아래 키로 왼쪽 영역의 카테고리를 선택하세요. 해당 페이지는 자동으로 로드됩니다. 오른쪽 키로 페이지에 들어가고 왼쪽 키로 카테고리에 돌아가며, OK로 컨트롤을 실행하고 뒤로으로 이전 페이지에 돌아갑니다. Enter와 Esc도 지원됩니다.
 
-휴대전화에서는 Settings 홈 페이지에서 카테고리를 선택하세요. Back 컨트롤이나 Android의 뒤로 가기 동작으로 돌아갈 수 있습니다. 가로로 넓은 터치 레이아웃에서는 선택한 페이지 옆에 카테고리가 표시될 수 있습니다.
+휴대전화에서는 설정 홈 페이지에서 카테고리를 선택하세요. 뒤로 컨트롤이나 Android의 뒤로 가기 동작으로 돌아갈 수 있습니다. 가로로 넓은 터치 레이아웃에서는 선택한 페이지 옆에 카테고리가 표시될 수 있습니다.
 
 ## 카테고리 {/* #categories */}
 
 | 카테고리 | 설정할 수 있는 항목 |
 |----------|------------------------|
-| [Profiles](/settings/profiles) | 포털, 에뮬레이션 기기, 프로필 재생 및 프로필 관리 |
-| [Appearance & controls](/settings/common-settings#appearance--controls) | 앱 언어, 화면 컨트롤, 화면 방향 및 키보드 |
-| [Playback & behavior](/settings/common-settings#playback--behavior) | 백그라운드 재생, 화면 속 화면, 음량, 시작 및 미디어 세션 |
-| [Key mapping](/settings/key-maps) | 실제 리모컨 키의 짧게 누르기 및 길게 누르기 동작 |
-| [Legacy remote](/settings/common-settings#legacy-remote) | MAG 기기용 소프트웨어 리모컨 |
+| [프로필](/settings/profiles) | 포털, 에뮬레이션 기기, 프로필 재생 및 프로필 관리 |
+| [모양 및 조작](/settings/common-settings#appearance--controls) | 앱 언어, 화면 컨트롤, 화면 방향 및 키보드 |
+| [재생 및 동작](/settings/common-settings#playback--behavior) | 백그라운드 재생, 화면 속 화면, 음량, 시작 및 미디어 세션 |
+| [키 매핑](/settings/key-maps) | 실제 리모컨 키의 짧게 누르기 및 길게 누르기 동작 |
+| [기존 리모컨](/settings/common-settings#legacy-remote) | MAG 기기용 소프트웨어 리모컨 |
 | [Companion](/settings/companion) | Companion 서비스, 페어링 및 기억된 기기 |
-| [Network](/settings/common-settings#network) | 브라우저 배율 조정 및 네트워크 캐시 |
-| [Security](/settings/common-settings#security) | 설정 비밀번호 보호 |
-| [Backup & restore](/settings/backup-restore) | 구성 백업 저장, 공유, 탐색 및 복원 |
-| [About & updates](/settings/about-updates) | 앱 정보, 제3자 고지 사항 및 지원되는 경우 업데이트 |
+| [네트워크](/settings/common-settings#network) | 브라우저 배율 조정 및 네트워크 캐시 |
+| [보안](/settings/common-settings#security) | 설정 비밀번호 보호 |
+| [백업 및 복원](/settings/backup-restore) | 구성 백업 저장, 공유, 탐색 및 복원 |
+| [정보 및 업데이트](/settings/about-updates) | 앱 정보, 제3자 고지 사항 및 지원되는 경우 업데이트 |
 
 ## 변경 사항 저장 {/* #saving-changes */}
 
 스위치는 조작하는 즉시 저장됩니다. 텍스트 및 선택 편집기는 확인 후 저장됩니다. 다른 변경 사항을 제출하기 전에 진행 중인 저장이 끝날 때까지 기다리세요. 페이지를 나가더라도 이미 수락된 저장은 취소되지 않습니다.
 
-잘못된 입력은 설명과 함께 편집기에 남아 있습니다. 편집 중 다른 곳에서 설정이 변경되면 **Reload**를 선택하고 새 설정과 초안을 비교한 뒤 다시 확인하세요. Reload는 검토할 수 있도록 초안을 유지하지만 자동으로 저장하지는 않습니다. 삭제된 항목은 저장할 수 없습니다.
+잘못된 입력은 설명과 함께 편집기에 남아 있습니다. 편집 중 다른 곳에서 설정이 변경되면 **다시 불러오기**를 선택하고 새 설정과 초안을 비교한 뒤 다시 확인하세요. 다시 불러오기는 검토할 수 있도록 초안을 유지하지만 자동으로 저장하지는 않습니다. 삭제된 항목은 저장할 수 없습니다.
 
 변경 사항이 저장되었지만 실행 중인 앱에 적용할 수 없다는 메시지가 표시되면 저장된 값은 이미 변경된 상태입니다. 저장에 실패했다고 판단하지 말고 재시도 또는 재시작 안내를 따르세요. 비밀번호로 보호된 설정을 다시 열면 재인증을 요구할 수 있습니다.

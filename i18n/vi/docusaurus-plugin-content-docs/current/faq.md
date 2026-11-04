@@ -18,7 +18,7 @@ import FAQ from '@site/src/components/FAQ';
 
 Đây là vấn đề đã biết trên một số thiết bị Sony, Philips và Xiaomi. Các thiết bị khác cũng có thể bị ảnh hưởng.
 
-Để khắc phục, cấu hình ứng dụng dùng âm lượng hệ thống (chung): vào [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) và bật ***Always use system volume level***. Tải lại cổng đang hoạt động từ menu ứng dụng để áp dụng thay đổi.
+Để khắc phục, cấu hình ứng dụng dùng âm lượng hệ thống (chung): vào [Cài đặt](/settings) > [Phát và hành vi](/settings/common-settings#playback--behavior) và bật ***Luôn dùng mức âm lượng hệ thống***. Tải lại cổng đang hoạt động từ menu ứng dụng để áp dụng thay đổi.
 
 </FAQ>
 
@@ -48,6 +48,6 @@ StbEmu không hỗ trợ M3U hoặc danh sách phát khác. Ứng dụng chỉ h
 
 <FAQ id="cannot-create-or-restore-backups" question="Tôi không thể tạo hoặc khôi phục bản sao lưu trong ứng dụng">
 
-Trong giao diện Settings mới, mở [Backup & restore](/settings/backup-restore) và dùng trình chọn tài liệu Android để chọn tệp hoặc nơi lưu. Nếu không có trình chọn, ứng dụng dùng các thư mục sao lưu có thể truy cập và trình duyệt tệp riêng. Kiểm tra quyền thiết bị và khả năng truy cập tệp được chọn. Trước khi khôi phục, kiểm tra tên bản sao lưu cùng số hồ sơ rồi xác nhận thao tác.
+Trong giao diện Cài đặt mới, mở [Sao lưu và khôi phục](/settings/backup-restore) và dùng trình chọn tài liệu Android để chọn tệp hoặc nơi lưu. Nếu không có trình chọn, ứng dụng dùng các thư mục sao lưu có thể truy cập và trình duyệt tệp riêng. Kiểm tra quyền thiết bị và khả năng truy cập tệp được chọn. Trước khi khôi phục, kiểm tra tên bản sao lưu cùng số hồ sơ rồi xác nhận thao tác.
 
 </FAQ>

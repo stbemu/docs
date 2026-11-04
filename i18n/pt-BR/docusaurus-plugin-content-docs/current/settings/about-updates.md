@@ -4,9 +4,9 @@ title: Sobre e atualizações
 sidebar_label: Sobre e atualizações
 ---
 
-# About & updates
+# Sobre e atualizações {/* #about--updates */}
 
-Abra **Settings > About & updates** para ver informações do aplicativo e os **Third-party notices**, que reúnem os avisos das bibliotecas distribuídas com o aplicativo.
+Abra **Configurações > Sobre e atualizações** para ver informações do aplicativo e os **Avisos de terceiros**, que reúnem os avisos das bibliotecas distribuídas com o aplicativo.
 
 As configurações de atualização, a lista de atualizações e os detalhes de cada atualização aparecem apenas em compilações que habilitam as atualizações no aplicativo. Eles estão desativados nas variantes do Google Play da versão de Configurações descrita aqui. A ausência da seção de atualizações não indica um erro nas configurações.
 

@@ -4,19 +4,19 @@ title: Yedekleme ve geri yükleme
 sidebar_label: Yedekleme ve geri yükleme
 ---
 
-# Backup & restore
+# Yedekleme ve geri yükleme {/* #backup--restore */}
 
-**Settings > Backup & restore** bölümünü açın. Bu kategori yalnızca uygulamanızda yedekleme işlemleri etkinse kullanılabilir.
+**Ayarlar > Yedekleme ve geri yükleme** bölümünü açın. Bu kategori yalnızca uygulamanızda yedekleme işlemleri etkinse kullanılabilir.
 
 ## Yedeği kaydetme veya paylaşma {/* #save-or-share-a-backup */}
 
-**Save settings and profiles…** seçeneğini seçin ve Android'in belge seçicisinde bir hedef belirleyin. Bir yedek oluşturup Android'in paylaşım arayüzü üzerinden göndermek için **Share settings and profiles…** seçeneğini seçin.
+**Ayarları ve profilleri kaydet…** seçeneğini seçin ve Android'in belge seçicisinde bir hedef belirleyin. Bir yedek oluşturup Android'in paylaşım arayüzü üzerinden göndermek için **Ayarları ve profilleri paylaş…** seçeneğini seçin.
 
-Belge seçici yoksa uygulama erişilebilir yedek klasörlerini ve kendi dosya tarayıcısını kullanır. **Browse saved backups**, kullanılabilir klasörlerde bulunan yedekleri listeler. Cihaz izinleri ve kullanılabilir dosya sağlayıcıları erişebileceğiniz dosyaları sınırlayabilir.
+Belge seçici yoksa uygulama erişilebilir yedek klasörlerini ve kendi dosya tarayıcısını kullanır. **Kayıtlı yedeklere göz at**, kullanılabilir klasörlerde bulunan yedekleri listeler. Cihaz izinleri ve kullanılabilir dosya sağlayıcıları erişebileceğiniz dosyaları sınırlayabilir.
 
 ## Yedeği geri yükleme {/* #restore-a-backup */}
 
-1. **Restore settings and profiles…** seçeneğini seçip bir yedek belirleyin veya kayıtlı yedekler tarayıcısından birini seçin.
+1. **Ayarları ve profilleri geri yükle…** seçeneğini seçip bir yedek belirleyin veya kayıtlı yedekler tarayıcısından birini seçin.
 2. Dosya adını, profil sayısını ve listelenen geri yükleme etkilerini inceleyin.
 3. Geri yüklemeyi onaylayın. Seçiciyi iptal etmek veya izni reddetmek işlemi başlatmaz.
 

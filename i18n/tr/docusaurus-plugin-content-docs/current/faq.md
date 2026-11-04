@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     Bu, bazı Sony, Philips ve Xiaomi cihazlarında bilinen bir sorundur. Başka cihazları da etkileyebilir.
 
     Sorunu çözmek için uygulamayı sistemin (genel) ses seviyesini kullanacak şekilde yapılandırın:
-    [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) yolunu izleyin ve ***Always use system volume level*** seçeneğini etkinleştirin.
+    [Ayarlar](/settings) > [Oynatma ve davranış](/settings/common-settings#playback--behavior) yolunu izleyin ve ***Her zaman sistem ses düzeyini kullan*** seçeneğini etkinleştirin.
     Değişikliklerin geçerli olması için uygulama menüsünden etkin portalı yeniden yükleyin.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="Uygulamada yedek oluşturamıyorum veya geri yükleyemiyorum">
-    Yeniden tasarlanan Settings arayüzünde [Backup & restore](/settings/backup-restore) bölümünü açın ve bir dosya veya kayıt konumu seçmek için Android'in belge seçicisini kullanın.
+    Yeniden tasarlanan Ayarlar arayüzünde [Yedekleme ve geri yükleme](/settings/backup-restore) bölümünü açın ve bir dosya veya kayıt konumu seçmek için Android'in belge seçicisini kullanın.
     Belge seçici yoksa uygulama erişilebilir yedek klasörlerini ve kendi dosya tarayıcısını kullanır.
     Cihaz izinlerini ve seçilen dosyaya erişimi kontrol edin. Geri yüklemeden önce yedek adını ve profil sayısını inceleyip işlemi onaylayın.
 </FAQ>

@@ -4,19 +4,19 @@ title: Backup e restauração
 sidebar_label: Backup e restauração
 ---
 
-# Backup & restore
+# Backup e restauração {/* #backup--restore */}
 
-Abra **Settings > Backup & restore**. Esta categoria está disponível apenas quando as operações de backup estão habilitadas para seu aplicativo.
+Abra **Configurações > Backup e restauração**. Esta categoria está disponível apenas quando as operações de backup estão habilitadas para seu aplicativo.
 
 ## Salvar ou compartilhar um backup {/* #save-or-share-a-backup */}
 
-Selecione **Save settings and profiles…** e escolha um destino no seletor de documentos do Android. Selecione **Share settings and profiles…** para criar um backup e enviá-lo pela interface de compartilhamento do Android.
+Selecione **Salvar configurações e perfis…** e escolha um destino no seletor de documentos do Android. Selecione **Compartilhar configurações e perfis…** para criar um backup e enviá-lo pela interface de compartilhamento do Android.
 
-Se não houver um seletor de documentos disponível, o aplicativo usará as pastas de backup acessíveis e seu navegador de arquivos. **Browse saved backups** lista os backups encontrados nas pastas disponíveis. As permissões do dispositivo e os provedores de arquivos disponíveis podem limitar os arquivos que você pode acessar.
+Se não houver um seletor de documentos disponível, o aplicativo usará as pastas de backup acessíveis e seu navegador de arquivos. **Procurar backups salvos** lista os backups encontrados nas pastas disponíveis. As permissões do dispositivo e os provedores de arquivos disponíveis podem limitar os arquivos que você pode acessar.
 
 ## Restaurar um backup {/* #restore-a-backup */}
 
-1. Selecione **Restore settings and profiles…** e escolha um backup ou selecione um no navegador de backups salvos.
+1. Selecione **Restaurar configurações e perfis…** e escolha um backup ou selecione um no navegador de backups salvos.
 2. Confira o nome do arquivo, a quantidade de perfis e os efeitos da restauração listados.
 3. Confirme a restauração. Cancelar o seletor ou negar a permissão não inicia a restauração.
 

@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     Il s’agit d’un problème connu sur certains appareils Sony, Philips et Xiaomi. D’autres appareils peuvent également être concernés.
 
     Pour le résoudre, configurez l’application pour qu’elle utilise le volume global du système :
-    Ouvrez [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) et activez ***Always use system volume level***.
+    Ouvrez [Paramètres](/settings) > [Lecture et comportement](/settings/common-settings#playback--behavior) et activez ***Toujours utiliser le volume du système***.
     Rechargez le portail actif depuis le menu de l’application pour appliquer les modifications.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="Je ne peux pas créer ou restaurer une sauvegarde dans l’application">
-    Dans les nouveaux paramètres, ouvrez [Backup & restore](/settings/backup-restore) et utilisez le sélecteur de documents Android pour choisir un fichier ou un emplacement d’enregistrement.
+    Dans les nouveaux paramètres, ouvrez [Sauvegarde et restauration](/settings/backup-restore) et utilisez le sélecteur de documents Android pour choisir un fichier ou un emplacement d’enregistrement.
     Si aucun sélecteur n’est disponible, l’application utilise les dossiers de sauvegarde accessibles et son navigateur de fichiers.
     Vérifiez les autorisations de l’appareil et l’accès au fichier sélectionné. Avant de restaurer, vérifiez le nom de la sauvegarde et le nombre de profils, puis confirmez l’opération.
 </FAQ>

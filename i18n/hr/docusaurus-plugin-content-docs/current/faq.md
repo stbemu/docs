@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     To je poznat problem na nekim uređajima Sony, Philips i Xiaomi. Može se pojaviti i na drugim uređajima.
 
     Da biste ga riješili, postavite aplikaciju da upotrebljava glasnoću sustava (globalnu glasnoću):
-    otvorite [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) i uključite ***Always use system volume level***.
+    otvorite [Postavke](/settings) > [Reprodukcija i ponašanje](/settings/common-settings#playback--behavior) i uključite ***Uvijek upotrijebi glasnoću sustava***.
     Ponovno učitajte aktivni portal iz izbornika aplikacije kako bi promjene stupile na snagu.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="Ne mogu izraditi ili vratiti sigurnosnu kopiju u aplikaciji">
-    U redizajniranom sučelju Settings otvorite [Backup & restore](/settings/backup-restore) i upotrijebite Androidov alat za odabir dokumenata da odaberete datoteku ili mjesto spremanja.
+    U redizajniranom sučelju Postavke otvorite [Sigurnosno kopiranje i vraćanje](/settings/backup-restore) i upotrijebite Androidov alat za odabir dokumenata da odaberete datoteku ili mjesto spremanja.
     Ako alat za odabir nije dostupan, aplikacija upotrebljava dostupne mape sa sigurnosnim kopijama i vlastiti preglednik datoteka.
     Provjerite dopuštenja uređaja i pristup odabranoj datoteci. Prije vraćanja provjerite naziv sigurnosne kopije i broj profila te potvrdite radnju.
 </FAQ>

@@ -21,6 +21,6 @@ El desarrollador no está afiliado a ningún proveedor de contenido externo.
 Hay dos versiones de la aplicación: gratuita y de pago. La [versión gratuita](https://play.google.com/store/apps/details?id=com.mvas.stb.emu.free) muestra anuncios; la [versión Pro](https://play.google.com/store/apps/details?id=com.mvas.stb.emu.pro) no.
 Esta es la principal diferencia entre ambas.
 
-Consulta la página de [Settings](/settings).
+Consulta la página de [Ajustes](/settings).
 
 Consulta la página de [Descarga](/download).

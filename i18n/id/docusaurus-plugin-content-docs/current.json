@@ -8,7 +8,7 @@
     "description": "The label for category 'Getting Started' in sidebar 'docSidebarId'"
   },
   "sidebar.docSidebarId.category.Settings": {
-    "message": "Pengaturan",
+    "message": "Setelan",
     "description": "The label for category 'Settings' in sidebar 'docSidebarId'"
   },
   "sidebar.docSidebarId.doc.Supported devices": {

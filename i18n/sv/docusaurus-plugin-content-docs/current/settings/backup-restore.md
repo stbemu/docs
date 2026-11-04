@@ -4,19 +4,19 @@ title: Säkerhetskopiering och återställning
 sidebar_label: Säkerhetskopiering och återställning
 ---
 
-# Backup & restore
+# Säkerhetskopiering och återställning {/* #backup--restore */}
 
-Öppna **Settings > Backup & restore**. Den här kategorin är bara tillgänglig när säkerhetskopiering är aktiverad för din app.
+Öppna **Inställningar > Säkerhetskopiering och återställning**. Den här kategorin är bara tillgänglig när säkerhetskopiering är aktiverad för din app.
 
 ## Spara eller dela en säkerhetskopia {/* #save-or-share-a-backup */}
 
-Välj **Save settings and profiles…** och välj en plats i Androids dokumentväljare. Välj **Share settings and profiles…** för att skapa en säkerhetskopia och skicka den via Androids delningsfunktion.
+Välj **Spara inställningar och profiler…** och välj en plats i Androids dokumentväljare. Välj **Dela inställningar och profiler…** för att skapa en säkerhetskopia och skicka den via Androids delningsfunktion.
 
-Om ingen dokumentväljare finns tillgänglig använder appen de åtkomliga säkerhetskopieringsmapparna och sin filbläddrare. **Browse saved backups** visar säkerhetskopior som hittats i de tillgängliga mapparna. Enhetens behörigheter och tillgängliga filleverantörer kan begränsa vilka filer du kan komma åt.
+Om ingen dokumentväljare finns tillgänglig använder appen de åtkomliga säkerhetskopieringsmapparna och sin filbläddrare. **Bläddra bland sparade säkerhetskopior** visar säkerhetskopior som hittats i de tillgängliga mapparna. Enhetens behörigheter och tillgängliga filleverantörer kan begränsa vilka filer du kan komma åt.
 
 ## Återställa en säkerhetskopia {/* #restore-a-backup */}
 
-1. Välj **Restore settings and profiles…** och välj en säkerhetskopia, eller välj en i bläddraren för sparade säkerhetskopior.
+1. Välj **Återställ inställningar och profiler…** och välj en säkerhetskopia, eller välj en i bläddraren för sparade säkerhetskopior.
 2. Granska filnamnet, antalet profiler och de angivna effekterna av återställningen.
 3. Bekräfta återställningen. Den startar inte om du avbryter väljaren eller nekar behörighet.
 

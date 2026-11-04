@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     यह कुछ Sony, Philips और Xiaomi डिवाइस की एक ज्ञात समस्या है। दूसरे डिवाइस भी इससे प्रभावित हो सकते हैं।
 
     इसे ठीक करने के लिए, ऐप को सिस्टम के (सभी ऐप पर लागू) वॉल्यूम स्तर का उपयोग करने के लिए कॉन्फ़िगर करें:
-    [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) में जाएँ और ***Always use system volume level*** चालू करें।
+    [सेटिंग](/settings) > [प्लेबैक और व्यवहार](/settings/common-settings#playback--behavior) में जाएँ और ***हमेशा सिस्टम वॉल्यूम इस्तेमाल करें*** चालू करें।
     बदलाव लागू करने के लिए ऐप के मेनू से सक्रिय पोर्टल दोबारा लोड करें।
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="मैं ऐप में बैकअप बना या पुनर्स्थापित नहीं कर पा रहा हूँ">
-    नए Settings इंटरफ़ेस में [Backup & restore](/settings/backup-restore) खोलें और Android के दस्तावेज़ चयनकर्ता से फ़ाइल या सेव करने की जगह चुनें।
+    नए सेटिंग इंटरफ़ेस में [बैकअप और बहाली](/settings/backup-restore) खोलें और Android के दस्तावेज़ चयनकर्ता से फ़ाइल या सेव करने की जगह चुनें।
     अगर चयनकर्ता उपलब्ध नहीं है, तो ऐप सुलभ बैकअप फ़ोल्डर और अपने फ़ाइल ब्राउज़र का उपयोग करता है।
     डिवाइस की अनुमतियाँ और चुनी गई फ़ाइल तक पहुँच जाँचें। पुनर्स्थापित करने से पहले बैकअप का नाम और प्रोफ़ाइल की संख्या देखें और कार्रवाई की पुष्टि करें।
 </FAQ>

@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     To znany problem na niektórych urządzeniach Sony, Philips i Xiaomi. Może występować także na innych urządzeniach.
 
     Aby go rozwiązać, skonfiguruj aplikację tak, aby korzystała z systemowego (globalnego) poziomu głośności:
-    przejdź do [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) i włącz ***Always use system volume level***.
+    przejdź do [Ustawienia](/settings) > [Odtwarzanie i zachowanie](/settings/common-settings#playback--behavior) i włącz ***Zawsze używaj głośności systemowej***.
     Ponownie załaduj aktywny portal z menu aplikacji, aby zastosować zmiany.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="Nie mogę utworzyć ani przywrócić kopii zapasowej w aplikacji">
-    W przeprojektowanym interfejsie Settings otwórz [Backup & restore](/settings/backup-restore) i użyj systemowego okna wyboru dokumentów Androida, aby wybrać plik lub miejsce zapisu.
+    W przeprojektowanym interfejsie Ustawienia otwórz [Kopia zapasowa i przywracanie](/settings/backup-restore) i użyj systemowego okna wyboru dokumentów Androida, aby wybrać plik lub miejsce zapisu.
     Jeśli okno wyboru nie jest dostępne, aplikacja korzysta z dostępnych folderów kopii zapasowych i własnej przeglądarki plików.
     Sprawdź uprawnienia urządzenia i dostęp do wybranego pliku. Przed przywróceniem sprawdź nazwę kopii i liczbę profili, a następnie potwierdź operację.
 </FAQ>

@@ -4,19 +4,19 @@ title: Back-up en herstel
 sidebar_label: Back-up en herstel
 ---
 
-# Backup & restore
+# Back-up en herstel {/* #backup--restore */}
 
-Open **Settings > Backup & restore**. Deze categorie is alleen beschikbaar als back-upbewerkingen zijn ingeschakeld voor uw app.
+Open **Instellingen > Back-up en herstel**. Deze categorie is alleen beschikbaar als back-upbewerkingen zijn ingeschakeld voor uw app.
 
 ## Een back-up opslaan of delen {/* #save-or-share-a-backup */}
 
-Selecteer **Save settings and profiles…** en kies een bestemming in de documentkiezer van Android. Selecteer **Share settings and profiles…** om een back-up te maken en deze te verzenden via de deelfunctie van Android.
+Selecteer **Instellingen en profielen opslaan…** en kies een bestemming in de documentkiezer van Android. Selecteer **Instellingen en profielen delen…** om een back-up te maken en deze te verzenden via de deelfunctie van Android.
 
-Als er geen documentkiezer beschikbaar is, gebruikt de app de toegankelijke back-upmappen en zijn eigen bestandsbrowser. **Browse saved backups** toont de back-ups die in de beschikbare mappen zijn gevonden. Apparaatmachtigingen en beschikbare bestandsproviders kunnen beperken welke bestanden u kunt openen.
+Als er geen documentkiezer beschikbaar is, gebruikt de app de toegankelijke back-upmappen en zijn eigen bestandsbrowser. **Opgeslagen back-ups doorzoeken** toont de back-ups die in de beschikbare mappen zijn gevonden. Apparaatmachtigingen en beschikbare bestandsproviders kunnen beperken welke bestanden u kunt openen.
 
 ## Een back-up herstellen {/* #restore-a-backup */}
 
-1. Selecteer **Restore settings and profiles…** en kies een back-up, of selecteer er een in de browser voor opgeslagen back-ups.
+1. Selecteer **Instellingen en profielen herstellen…** en kies een back-up, of selecteer er een in de browser voor opgeslagen back-ups.
 2. Controleer de bestandsnaam, het aantal profielen en de vermelde gevolgen van het herstellen.
 3. Bevestig het herstellen. Als u de kiezer annuleert of geen toestemming geeft, wordt het herstellen niet gestart.
 

@@ -1,12 +1,12 @@
 ---
 id: about-updates
-title: Info & Updates
-sidebar_label: Info & Updates
+title: Informationen und Aktualisierungen
+sidebar_label: Informationen und Aktualisierungen
 ---
 
 # Info & Updates {/* #about--updates */}
 
-Öffnen Sie **Settings > About & updates**, um App-Informationen und **Third-party notices** mit Hinweisen zu den mitgelieferten Bibliotheken anzuzeigen.
+Öffnen Sie **Einstellungen > Informationen und Aktualisierungen**, um App-Informationen und **Hinweise zu Drittanbietern** mit Hinweisen zu den mitgelieferten Bibliotheken anzuzeigen.
 
 Update-Einstellungen, die Update-Liste und Update-Details erscheinen nur in Builds, die Updates innerhalb der App erlauben. In den Google-Play-Varianten der hier beschriebenen Einstellungsversion sind sie deaktiviert. Ein fehlender Update-Bereich weist nicht auf einen Einstellungsfehler hin.
 

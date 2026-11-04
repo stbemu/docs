@@ -19,7 +19,7 @@ import FAQ from '@site/src/components/FAQ';
     Detta är ett känt problem på vissa enheter från Sony, Philips och Xiaomi. Även andra enheter kan beröras.
 
     Åtgärda det genom att ställa in appen så att den använder systemets (globala) volymnivå:
-    gå till [Settings](/settings) > [Playback & behavior](/settings/common-settings#playback--behavior) och aktivera ***Always use system volume level***.
+    gå till [Inställningar](/settings) > [Uppspelning och beteende](/settings/common-settings#playback--behavior) och aktivera ***Använd alltid systemets volymnivå***.
     Läs in den aktiva portalen igen från appmenyn för att ändringarna ska träda i kraft.
 </FAQ>
 
@@ -44,7 +44,7 @@ import FAQ from '@site/src/components/FAQ';
 </FAQ>
 
 <FAQ id="cannot-create-or-restore-backups" question="Jag kan inte skapa eller återställa en säkerhetskopia i appen">
-    Öppna [Backup & restore](/settings/backup-restore) i det omarbetade Settings och använd Androids dokumentväljare för att välja en fil eller en plats att spara på.
+    Öppna [Säkerhetskopiering och återställning](/settings/backup-restore) i det omarbetade Inställningar och använd Androids dokumentväljare för att välja en fil eller en plats att spara på.
     Om ingen väljare finns tillgänglig använder appen åtkomliga säkerhetskopieringsmappar och sin filbläddrare.
     Kontrollera enhetens behörigheter och åtkomsten till den valda filen. Granska säkerhetskopians namn och antalet profiler innan du återställer och bekräfta åtgärden.
 </FAQ>
