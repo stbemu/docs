@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Поточна версія",
+    "message": "Найновіша",
     "description": "The label for version current"
   },
   "sidebar.docSidebarId.category.Getting Started": {

@@ -1,0 +1,53 @@
+---
+id: faq
+title: よくある質問
+sidebar_label: よくある質問
+---
+
+import FAQ from '@site/src/components/FAQ';
+
+# よくある質問 {/* #faq */}
+
+<FAQ id="google-play-pay-again" question="Google Play で StbEmu Pro を購入したのにダウンロードできず、再度支払いを求められます">
+    これは Google Play の既知の問題です。支払いの処理と端末上のデータの更新には、最大 24 時間かかることがあります。
+    パソコンやモバイル端末のブラウザーで [Google Play](https://play.google.com/store) を開き、
+    StbEmu Pro を探して（[直接リンク](https://play.google.com/store/apps/details?id=com.mvas.stb.emu.pro)）、
+    お使いの端末にリモートでインストールすることもできます。
+</FAQ>
+
+<FAQ id="volume-level-resets-on-playback-start" question="チャンネルを切り替えると、アプリが音量をリセットします">
+    これは一部の Sony、Philips、Xiaomi 製端末で確認されている問題です。他の端末でも発生する可能性があります。
+
+    解決するには、システム共通の音量を使用するようにアプリを設定してください。
+    [Settings](settings/index.md) > [Common settings](settings/common_settings.md) を開き、***Always use system volume level*** を有効にします。
+    変更を反映するには、アプリのメニューから現在のポータルを再読み込みしてください。
+</FAQ>
+
+<FAQ id="customize-portal-ui" question="ポータルの画面をカスタマイズできますか？色やアイコンを変更したいです">
+    ポータルは IPTV プロバイダーのサーバー上で動作しています。画面をカスタマイズできるのは、プロバイダーがその機能を提供している場合だけです。
+    ほとんどのポータルは画面のカスタマイズに対応していないため、外観を変更できるのは IPTV プロバイダーだけです。
+</FAQ>
+
+<FAQ id="channels-disappear-from-favorites" question="ポータルを再読み込みすると Favorites からチャンネルが消えたり、並べ替えができなかったりします">
+    お気に入りを含むすべてのチャンネルリストは、IPTV プロバイダーのサーバーに保存されています。アプリでお気に入りが読み込まれない場合や、
+    順番が正しくない場合は、IPTV プロバイダー側でポータルが正しく設定されていません。
+    この問題を修正できるのはプロバイダーだけです。
+</FAQ>
+
+<FAQ id="channels-buffer" question="再生中に頻繁にバッファリングが発生します">
+    バッファリングが頻発する場合、通常はお使いのネットワークか IPTV プロバイダーの接続が不安定、または速度不足のため、
+    端末への動画配信に支障が生じています。ご自身の接続に問題がないことを確認できた場合は、IPTV プロバイダーに報告してください。
+</FAQ>
+
+<FAQ id="m3u-support" question="M3U プレイリストに対応していますか？">
+    StbEmu は M3U などのプレイリストには対応していません。MAG ボックス向けに設計されたポータルにのみ対応しています。
+</FAQ>
+
+<FAQ id="cannot-create-or-restore-backups" question="アプリでバックアップを作成または復元できません">
+    現在、この機能が正しく動作するのは Android 10 以前のみです。Android 11 以降では、アプリが既定でファイルを読み書きできるのは、
+    自身のフォルダー内だけです。他のフォルダーへのアクセス権限を要求することはできますが、一部の
+    Android TV やセットトップボックス（STB）では機能しません。原因となる以下の問題は修正されません。
+    [1](https://issuetracker.google.com/issues/71327396)、[2](https://issuetracker.google.com/issues/202985150)。
+
+    お使いの端末がこの問題の影響を受ける場合、その端末ではバックアップの作成や復元はできません。
+</FAQ>

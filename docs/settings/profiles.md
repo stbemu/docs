@@ -8,13 +8,16 @@ sidebar_label: Profiles
 
 An **STB profile** is a set of options for emulating a set-top box in the app. The app creates one profile on first launch.
 You can edit it or add more profiles to load different portals on the same device.
-To create a profile, double-tap the screen to display the menu at the top or side [^1].
-Select **Settings**, then **Profiles**, where you can add or edit profiles.
+Open **Settings > Profiles** and choose **Add profile**, or select an existing profile to edit it.
+The overview groups options under **Connection**, **Playback & device**, and **Manage profile**.
+Available actions depend on your app edition and profile restrictions. The active profile cannot be deleted;
+switch to another profile before deleting it. Deletion requires confirmation.
 
-StbEmu does not provide, host, or index any media or IPTV playlists. 
+Text and choice edits require confirmation; switches save immediately. See [Saving changes](/settings#saving-changes)
+for validation errors, conflicting edits, and saved changes that require a runtime refresh.
+
+StbEmu does not provide, host, or index any media or IPTV playlists.
 Users must have a legal right to the content they access via the emulator.
-
-[^1]: If you use a 3D remote control or a mouse, move the pointer, click the screen, and open the app's menu at the top.
 
 - [Profile name](#profile-name)
 - [Portal settings](#portal-settings)
@@ -46,7 +49,6 @@ Users must have a legal right to the content they access via the emulator.
     - [Hardware settings](#hardware-settings)
         - [Vendor](#vendor)
         - [Hardware version](#hardware-version)
-    - [IP address](#ip-address)
 - [Media player settings](#media-player-settings)
     - [Media player](#media-player)
     - [UDPXY settings](#udpxy-settings)
@@ -61,7 +63,8 @@ The profile name. This can be any non-empty string.
 ### Portal settings
 Options specific to the portal.
 ##### Portal URL
-The URL of the portal. It must start with a scheme (**http://**, **https://**, **ftp://**, etc.).
+Enter an absolute **http://** or **https://** URL. Local-network hosts, localhost, IPv6 addresses, and international domain names are supported. Network URLs must not contain whitespace.
+For an internal portal, an absolute filesystem path or supported absolute **file://** URL is also accepted. FTP URLs are not accepted by the redesigned editor.
 
 ##### Portal language
 The default portal language, specified as a two-letter [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) language code.
@@ -73,12 +76,19 @@ HTTP proxy settings.
 Enable if you want to use an HTTP proxy.
 
 ##### Proxy host name
+The proxy host is separate from its port; the default host is 127.0.0.1.
 ##### Proxy port
+Default: 3128. The host and port editors are available only while **Use HTTP proxy** is enabled.
 
 ##### Portal is internal
-Enable this option to use an internal portal for MAG devices.
+Enable this option to use an internal portal for MAG devices. A local portal URL enables it automatically and makes the switch unavailable. Changing to a network URL clears the automatic internal-portal setting.
 
 ##### Internal portal URL
+Use the **Portal URL** field for the local path or file URL; there is no separate internal-URL editor.
+
+To install a portal, open **Settings > Profiles > your profile > Portal settings**, use the install action, and select its archive. Wait for extraction,
+then confirm the offered local URL. Installing files and accepting the URL are separate steps.
+Use the remove action in **Portal settings** to remove an installed internal portal.
 
 ### STB configuration
 The main emulation settings.
@@ -99,7 +109,8 @@ Most users should use **Generic** firmware (selected by default).
 
 #### Firmware settings
 This option is available only with **Custom** firmware (currently supported only for MAG 250).
-Use it to configure specific firmware settings, such as the version or a custom User Agent string.
+Configure player-engine, JavaScript API and STB API versions, plus the image version, description, and date.
+Enable custom User Agent use before editing the custom User Agent string.
 
 #### User Agent
 The User Agent string for the app's web browser.
@@ -133,7 +144,8 @@ Send the device ID when a portal requests it. If disabled, the app sends an empt
 
 ##### Device ID random seed
 The seed used to generate the device ID. Use the same seed on all devices that use the same portal URL and
-MAC address. Press **Reset device ID** after changing this value.
+MAC address. Confirming a changed seed regenerates the IDs automatically.
+Do not press Reset if you want to keep the seed: Reset clears it.
 
 ##### Device ID value
 The device ID. Use the generated value or enter your own.
@@ -144,32 +156,36 @@ Enable this option to edit Device ID 2 and the signature.
 ##### Device ID 2
 ##### Signature
 ##### Reset device ID to default value
-Regenerate **Device ID**, **Device ID 2**, and the signature.
+After confirmation, clear the seed and regenerate **Device ID**, **Device ID 2**, and the signature from the current profile values. Other profile settings are retained.
+
+Manual **Device ID** editing is available only when **Send Device ID** is enabled and MAC-based IDs are disabled.
+Editing **Device ID 2** and **Signature** also requires **Custom device ID 2 and signature**.
+Automatically derived values remain readable when editing is unavailable.
 
 #### Hardware settings
 ##### Vendor
 ##### Hardware version
 
-#### IP address
-The IP address sent to a portal on request. This is an emulated address, not the device's actual IP address.
-Most portals do not use this information, so you usually do not need to change it.
+Device options also include Ministra compatibility and browser redirection. Change them only as required by your portal.
+
 ### Media player settings
 
 Media player settings for this profile.
 #### Media player
 Select the default media player for this profile.
 
-| Player          | Description                                                                                                                                          | Comment                                                 |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| Exo             | [GitHub](https://github.com/google/ExoPlayer)                                                                                                        | The default player, recommended for most devices |
-| VLC             | [Website](https://www.videolan.org)                                                                                                                 |                                                         |
-| MPV             | [GitHub](https://github.com/mpv-android/mpv-android)                                                                                                 |                                                         |
-| Ijk             | [GitHub](https://github.com/bilibili/ijkplayer)                                                                                                      | Does not support subtitles                               |
-| Internal player | Uses the Android player. Supported codecs depend on your device's Android version.                                                          | Does not support subtitles                               |
-| External player | Use almost any external player. Integration with the emulator is unavailable; media streams open in another app. |                                                         |
+The list includes automatic selection, Exo, the Android internal player, and an external player,
+plus any additional players available in your build. Select from the choices shown in the app.
+The internal player's codec support depends on Android; external players open streams in another app.
 
 #### UDPXY settings
 ##### Enable UDPXY support {/* #enable-udxpy-support */}
+Enable UDPXY only after entering a valid HTTP/HTTPS server URL.
 ##### UDPXY server URL
+You can enter the URL while UDPXY is off. An empty URL is allowed only while it is off; a nonempty URL must be valid HTTP/HTTPS.
 ##### Overwrite stream protocol
+Choose the stream protocol override when UDPXY is enabled.
 ### Advanced settings
+Profile-specific compatibility options include CSS patches, emulator detection, background-color, local-file and AJAX fixes,
+and return/key events for external players. Back, Exit, and OK event options depend on the return-to-channel-list event option.
+Change these only when required by your portal or external player.
