@@ -21,3 +21,5 @@ Inicie o pareamento explicitamente quando quiser autorizar um novo dispositivo C
 Confira os dispositivos lembrados e selecione um para revogar seu acesso. A revogação exige confirmação e se aplica ao dispositivo selecionado. A relação de confiança do pareamento e os registros de revogação não são transferidos por meio de [backups da configuração](/settings/backup-restore).
 
 A categoria [Controle remoto legado](/settings/common-settings#legacy-remote) configura um serviço separado para controles remotos por software antigos para MAG.
+
+Para o aplicativo do celular ou tablet, consulte os [guias do StbEmu Companion](../stbemu-companion/index.md).

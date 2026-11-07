@@ -21,3 +21,5 @@ Mulai pemasangan secara eksplisit saat Anda ingin mengizinkan perangkat Companio
 Tinjau perangkat yang diingat dan pilih salah satunya untuk mencabut aksesnya. Pencabutan memerlukan konfirmasi dan berlaku untuk perangkat yang dipilih. Kepercayaan pemasangan dan catatan pencabutan tidak dipindahkan melalui [cadangan konfigurasi](/settings/backup-restore).
 
 Kategori [Remote lama](/settings/common-settings#legacy-remote) mengatur layanan terpisah untuk aplikasi kendali jarak jauh MAG yang lebih lama.
+
+Untuk aplikasi ponsel/tablet, lihat [panduan StbEmu Companion](../stbemu-companion/index.md).

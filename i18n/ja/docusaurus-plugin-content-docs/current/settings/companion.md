@@ -21,3 +21,5 @@ sidebar_label: Companion
 記憶済みの端末を確認し、アクセスを取り消したい端末を選びます。取り消しには確認が必要で、選択した端末に適用されます。ペアリングによる信頼と取り消しの記録は、[設定のバックアップ](/settings/backup-restore)では転送されません。
 
 [従来のリモコン](/settings/common-settings#legacy-remote) カテゴリでは、古い MAG ソフトウェアリモコン向けの別のサービスを設定します。
+
+スマートフォン・タブレット用アプリについては、[StbEmu Companion のガイド](../stbemu-companion/index.md)を参照してください。

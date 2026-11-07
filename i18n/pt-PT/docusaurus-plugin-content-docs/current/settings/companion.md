@@ -21,3 +21,5 @@ Inicie o emparelhamento explicitamente quando quiser autorizar um novo dispositi
 Verifique os dispositivos memorizados e selecione um para revogar o seu acesso. A revogação exige confirmação e aplica-se ao dispositivo selecionado. A relação de confiança do emparelhamento e os registos de revogação não são transferidos através de [cópias de segurança da configuração](/settings/backup-restore).
 
 A categoria [Comando antigo](/settings/common-settings#legacy-remote) configura um serviço separado para comandos por software antigos para MAG.
+
+Para a aplicação para telemóvel/tablet, consulte os [guias do StbEmu Companion](../stbemu-companion/index.md).

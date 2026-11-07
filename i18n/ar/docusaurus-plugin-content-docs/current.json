@@ -22,5 +22,9 @@
   "sidebar.docSidebarId.doc.FAQ": {
     "message": "الأسئلة الشائعة",
     "description": "The label for the doc item 'FAQ' in sidebar 'docSidebarId', linking to the doc faq"
+  },
+  "sidebar.docSidebarId.category.StbEmu Companion": {
+    "message": "StbEmu Companion",
+    "description": "The label for category 'StbEmu Companion' in sidebar 'docSidebarId'"
   }
 }

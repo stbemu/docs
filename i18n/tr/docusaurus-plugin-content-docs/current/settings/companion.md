@@ -21,3 +21,5 @@ Yeni bir Companion cihazını yetkilendirmek istediğinizde eşleştirmeyi kendi
 Hatırlanan cihazları inceleyin ve erişimini iptal etmek için birini seçin. İptal işlemi onay gerektirir ve seçilen cihaza uygulanır. Eşleştirme güveni ve erişim iptali kayıtları [yapılandırma yedekleri](/settings/backup-restore) üzerinden aktarılmaz.
 
 [Eski uzaktan kumanda](/settings/common-settings#legacy-remote) kategorisi, eski MAG yazılımsal uzaktan kumandaları için ayrı bir hizmeti yapılandırır.
+
+Telefon/tablet uygulaması için [StbEmu Companion rehberlerine](../stbemu-companion/index.md) bakın.

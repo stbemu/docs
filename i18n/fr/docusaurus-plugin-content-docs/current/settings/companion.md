@@ -21,3 +21,5 @@ Lancez explicitement l’association pour autoriser un nouvel appareil Companion
 Examinez les appareils mémorisés et sélectionnez-en un pour révoquer son accès. La révocation nécessite une confirmation et s’applique à l’appareil sélectionné. Les autorisations d’association et les enregistrements de révocation ne sont pas transférés par les [sauvegardes de configuration](/settings/backup-restore).
 
 La catégorie [Ancienne télécommande](/settings/common-settings#legacy-remote) configure un service distinct pour les anciennes télécommandes logicielles MAG.
+
+Pour l’application sur téléphone ou tablette, consultez les [guides StbEmu Companion](../stbemu-companion/index.md).

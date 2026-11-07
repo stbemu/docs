@@ -21,3 +21,5 @@ Starten Sie die Kopplung ausdrücklich, wenn Sie ein neues Companion-Gerät auto
 Prüfen Sie die gespeicherten Geräte und wählen Sie eines aus, um seinen Zugriff zu widerrufen. Der Widerruf erfordert eine Bestätigung und betrifft das ausgewählte Gerät. Vertrauensstellungen aus Kopplungen und Widerrufseinträge werden nicht über [Konfigurationssicherungen](/settings/backup-restore) übertragen.
 
 Die Kategorie [Klassische Fernsteuerung](/settings/common-settings#legacy-remote) konfiguriert einen separaten Dienst für ältere MAG-Software-Fernbedienungen.
+
+Für die Smartphone-/Tablet-App siehe die [StbEmu Companion-Anleitungen](../stbemu-companion/index.md).

@@ -21,3 +21,5 @@ sidebar_label: Companion
 기억된 기기를 검토하고 접근 권한을 취소할 기기를 선택하세요. 취소에는 확인이 필요하며 선택한 기기에 적용됩니다. 페어링 신뢰 및 취소 기록은 [구성 백업](/settings/backup-restore)으로 이전되지 않습니다.
 
 [기존 리모컨](/settings/common-settings#legacy-remote) 카테고리는 기존 MAG 소프트웨어 리모컨용 별도 서비스를 설정합니다.
+
+휴대전화/태블릿 앱은 [StbEmu Companion 가이드](../stbemu-companion/index.md)를 참고하세요.

@@ -21,3 +21,5 @@ Start het koppelen expliciet wanneer u een nieuw Companion-apparaat wilt autoris
 Controleer de onthouden apparaten en selecteer er een om de toegang in te trekken. Intrekken vereist bevestiging en geldt voor het geselecteerde apparaat. Koppelvertrouwen en intrekkingsgegevens worden niet overgedragen via [configuratieback-ups](/settings/backup-restore).
 
 De categorie [Oudere afstandsbediening](/settings/common-settings#legacy-remote) configureert een afzonderlijke service voor oudere MAG-softwareafstandsbedieningen.
+
+Zie voor de telefoon-/tabletapp de [StbEmu Companion-handleidingen](../stbemu-companion/index.md).

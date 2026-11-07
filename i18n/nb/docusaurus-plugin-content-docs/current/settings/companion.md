@@ -21,3 +21,5 @@ Start sammenkobling uttrykkelig når du vil godkjenne en ny Companion-enhet. Bru
 Se gjennom de huskede enhetene og velg en for å tilbakekalle tilgangen. Tilbakekalling krever bekreftelse og gjelder den valgte enheten. Tillit fra sammenkobling og tilbakekallingsoppføringer overføres ikke via [sikkerhetskopier av konfigurasjonen](/settings/backup-restore).
 
 Kategorien [Eldre fjernstyring](/settings/common-settings#legacy-remote) konfigurerer en egen tjeneste for eldre MAG-fjernkontrollapper.
+
+For telefon-/nettbrettappen, se [veiledningene for StbEmu Companion](../stbemu-companion/index.md).

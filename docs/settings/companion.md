@@ -21,3 +21,5 @@ Start pairing explicitly when you want to authorize a new Companion device. Use 
 Review the remembered devices and select one to revoke its access. Revocation requires confirmation and applies to the selected device. Pairing trust and revocation records are not transferred through [configuration backups](/settings/backup-restore).
 
 The [Legacy remote](/settings/common-settings#legacy-remote) category configures a separate service for older MAG software remote controls.
+
+For the phone/tablet app, see the [StbEmu Companion guides](../stbemu-companion/index.md).

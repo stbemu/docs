@@ -21,3 +21,5 @@ Rozpocznij parowanie świadomie, gdy chcesz autoryzować nowe urządzenie Compan
 Sprawdź zapamiętane urządzenia i wybierz jedno, aby cofnąć mu dostęp. Cofnięcie dostępu wymaga potwierdzenia i dotyczy wybranego urządzenia. Zaufanie ustanowione podczas parowania i zapisy o cofnięciu dostępu nie są przenoszone przez [kopie zapasowe konfiguracji](/settings/backup-restore).
 
 Kategoria [Starsze zdalne sterowanie](/settings/common-settings#legacy-remote) służy do konfiguracji oddzielnej usługi dla starszych programowych pilotów MAG.
+
+Informacje o aplikacji na telefon lub tablet znajdziesz w [poradnikach StbEmu Companion](../stbemu-companion/index.md).

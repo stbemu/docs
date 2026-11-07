@@ -44,6 +44,22 @@ const sidebars: SidebarsConfig = {
         ],
       },
       {
+        type: 'category',
+        label: 'StbEmu Companion',
+        collapsible: true,
+        collapsed: true,
+        link: {type: 'doc', id: 'stbemu-companion/index'},
+        items: [
+          'stbemu-companion/connecting-devices',
+          'stbemu-companion/remote-control',
+          'stbemu-companion/profiles',
+          'stbemu-companion/transferring-profiles',
+          'stbemu-companion/backups',
+          'stbemu-companion/settings',
+          'stbemu-companion/system-backup',
+        ],
+      },
+      {
         type: 'doc',
         id: 'supported-devices',
         label: 'Supported devices'

@@ -21,3 +21,5 @@ Izričito pokrenite uparivanje kada želite odobriti novi Companion uređaj. Upo
 Pregledajte zapamćene uređaje i odaberite uređaj kojem želite opozvati pristup. Opoziv zahtijeva potvrdu i odnosi se na odabrani uređaj. Povjerenje uspostavljeno uparivanjem i zapisi o opozivu ne prenose se putem [sigurnosnih kopija konfiguracije](/settings/backup-restore).
 
 Kategorija [Staro daljinsko upravljanje](/settings/common-settings#legacy-remote) konfigurira zasebnu uslugu za starije softverske daljinske upravljače za MAG.
+
+Za aplikaciju za telefon/tablet pogledajte [vodiče za StbEmu Companion](../stbemu-companion/index.md).

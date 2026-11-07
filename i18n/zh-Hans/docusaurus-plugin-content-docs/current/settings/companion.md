@@ -21,3 +21,5 @@ sidebar_label: Companion
 查看已记住的设备，并选择要撤销访问权限的设备。撤销操作需要确认，且仅适用于所选设备。配对信任关系和撤销记录不会通过[配置备份](/settings/backup-restore)转移。
 
 [旧版遥控](/settings/common-settings#legacy-remote) 类别用于配置独立的服务，供旧版 MAG 软件遥控器使用。
+
+有关手机/平板电脑应用，请参见 [StbEmu Companion 指南](../stbemu-companion/index.md)。

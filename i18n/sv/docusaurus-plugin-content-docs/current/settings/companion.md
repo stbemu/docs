@@ -21,3 +21,5 @@ Starta parkopplingen uttryckligen när du vill godkänna en ny Companion-enhet. 
 Granska de ihågkomna enheterna och välj en för att återkalla dess åtkomst. Återkallelsen kräver bekräftelse och gäller den valda enheten. Parkopplingens förtroende och återkallelseposter överförs inte via [säkerhetskopior av konfigurationen](/settings/backup-restore).
 
 Kategorin [Äldre fjärrstyrning](/settings/common-settings#legacy-remote) konfigurerar en separat tjänst för äldre programvarubaserade MAG-fjärrkontroller.
+
+För telefon-/surfplatteappen, se [guiderna för StbEmu Companion](../stbemu-companion/index.md).

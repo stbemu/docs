@@ -21,3 +21,5 @@ Inicia la vinculación de forma explícita cuando quieras autorizar un nuevo dis
 Revisa los dispositivos recordados y selecciona uno para revocar su acceso. La revocación requiere confirmación y se aplica al dispositivo seleccionado. La confianza establecida mediante vinculación y los registros de revocación no se transfieren mediante las [copias de seguridad de la configuración](/settings/backup-restore).
 
 La categoría [Mando remoto antiguo](/settings/common-settings#legacy-remote) configura un servicio independiente para los mandos por software MAG antiguos.
+
+Para la aplicación del teléfono o la tableta, consulta las [guías de StbEmu Companion](../stbemu-companion/index.md).

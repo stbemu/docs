@@ -21,3 +21,5 @@ Chủ động bắt đầu ghép nối khi muốn cấp quyền cho một thiế
 Kiểm tra các thiết bị đã ghi nhớ và chọn thiết bị cần thu hồi quyền truy cập. Việc thu hồi yêu cầu xác nhận và áp dụng cho thiết bị được chọn. Thông tin tin cậy ghép nối và bản ghi thu hồi không được chuyển qua [bản sao lưu cấu hình](/settings/backup-restore).
 
 Danh mục [Điều khiển từ xa cũ](/settings/common-settings#legacy-remote) cấu hình một dịch vụ riêng cho các ứng dụng điều khiển phần mềm MAG cũ.
+
+Đối với ứng dụng điện thoại/máy tính bảng, xem [hướng dẫn StbEmu Companion](../stbemu-companion/index.md).
