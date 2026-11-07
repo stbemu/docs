@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Najnovija",
+    "description": "The label for version current"
+  },
+  "sidebar.docSidebarId.category.Getting Started": {
+    "message": "Prvi koraci",
+    "description": "The label for category 'Getting Started' in sidebar 'docSidebarId'"
+  },
+  "sidebar.docSidebarId.category.Settings": {
+    "message": "Postavke",
+    "description": "The label for category 'Settings' in sidebar 'docSidebarId'"
+  },
+  "sidebar.docSidebarId.doc.Supported devices": {
+    "message": "Podržani uređaji",
+    "description": "The label for the doc item 'Supported devices' in sidebar 'docSidebarId', linking to the doc supported-devices"
+  },
+  "sidebar.docSidebarId.doc.Download": {
+    "message": "Preuzimanje",
+    "description": "The label for the doc item 'Download' in sidebar 'docSidebarId', linking to the doc download"
+  },
+  "sidebar.docSidebarId.doc.FAQ": {
+    "message": "Česta pitanja",
+    "description": "The label for the doc item 'FAQ' in sidebar 'docSidebarId', linking to the doc faq"
+  },
+  "sidebar.docSidebarId.category.StbEmu Companion": {
+    "message": "StbEmu Companion",
+    "description": "The label for category 'StbEmu Companion' in sidebar 'docSidebarId'"
+  }
+}

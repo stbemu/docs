@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Поточна версія",
+    "message": "Найновіша",
     "description": "The label for version current"
   },
   "sidebar.docSidebarId.category.Getting Started": {
@@ -22,5 +22,9 @@
   "sidebar.docSidebarId.doc.FAQ": {
     "message": "Поширені запитання",
     "description": "The label for the doc item 'FAQ' in sidebar 'docSidebarId', linking to the doc faq"
+  },
+  "sidebar.docSidebarId.category.StbEmu Companion": {
+    "message": "StbEmu Companion",
+    "description": "The label for category 'StbEmu Companion' in sidebar 'docSidebarId'"
   }
 }

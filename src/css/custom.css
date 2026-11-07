@@ -28,3 +28,22 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Keep phone screenshots readable without filling the documentation column. */
+.theme-doc-markdown img:is(
+  [src*='/img/companion/'],
+  [src*='/devices-empty-'],
+  [src*='/devices-saved-'],
+  [src*='/pairing-'],
+  [src*='/device-actions-'],
+  [src*='/transfer-'],
+  [src*='/restore-'],
+  [src*='/backup-library-'],
+  [src*='/remote-control-'],
+  [src*='/settings-']
+) {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+}

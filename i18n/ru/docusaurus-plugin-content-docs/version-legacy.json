@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Предыдущая",
+    "description": "The label for version legacy"
+  },
+  "sidebar.docSidebarId.category.Getting Started": {
+    "message": "Начало работы",
+    "description": "The label for category 'Getting Started' in sidebar 'docSidebarId'"
+  },
+  "sidebar.docSidebarId.category.Settings": {
+    "message": "Настройки",
+    "description": "The label for category 'Settings' in sidebar 'docSidebarId'"
+  },
+  "sidebar.docSidebarId.doc.Supported devices": {
+    "message": "Поддерживаемые устройства",
+    "description": "The label for the doc item 'Supported devices' in sidebar 'docSidebarId', linking to the doc supported-devices"
+  },
+  "sidebar.docSidebarId.doc.Download": {
+    "message": "Загрузка",
+    "description": "The label for the doc item 'Download' in sidebar 'docSidebarId', linking to the doc download"
+  },
+  "sidebar.docSidebarId.doc.FAQ": {
+    "message": "Частые вопросы",
+    "description": "The label for the doc item 'FAQ' in sidebar 'docSidebarId', linking to the doc faq"
+  }
+}
